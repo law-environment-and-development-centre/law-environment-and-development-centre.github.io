@@ -17,8 +17,8 @@ You can make every change below in your web browser on github.com. You don't nee
 | Clinic partner logos | `_data/partners.yml` |
 | Research themes (About page) | `_data/themes.yml` |
 | LLM/MA module pages | `_modules/` (one file per module) |
-| PhD projects | `_data/phd.yml` |
-| Members (academics, associates, PhD researchers, alumni) | `_data/members.yml`, profile pages in `members/` |
+| PhD projects (ongoing ones link to SOAS profiles) | `_data/phd.yml` |
+| Members (academics, associates, PhD researchers, alumni) | `_data/members.yml` |
 | Seminar series archive (posters) | `_data/seminar_archive.yml` |
 | Events & collaborations | `_data/collaborations.yml` |
 | Advice, transnational education & impact | `research/advice-impact.md` |

@@ -1,7 +1,7 @@
 {%- assign p = include.p -%}
 <article class="phd-entry">
   <h3>{{ p.title }}</h3>
-  <p class="phd-entry__meta">{{ p.name }}{% if p.status != "" %} · {{ p.status }}{% endif %}</p>
+  <p class="phd-entry__meta">{% if p.link %}<a href="{{ p.link }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.status != "" and p.status != "ongoing project" %} · {{ p.status }}{% endif %}</p>
   {% if p.abstract != "" %}
   <details>
     <summary>Read abstract</summary>

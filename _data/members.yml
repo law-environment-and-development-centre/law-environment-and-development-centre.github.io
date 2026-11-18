@@ -1,4 +1,5 @@
-# Everyone on the Members page, by group. photo/link/email are optional.
+# Everyone on the Members page, by group. photo/link are optional.
+# Doctoral researchers: only people with a SOAS profile; link to it.
 
 - group: Academic
   people:
@@ -51,7 +52,7 @@
     link: https://nludelhi.ac.in/faculty/dr-roopa-madhav/
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfM4OahuatXr5UHg6OcC-BLLgAlZnNgrbnTt79KdasME4w6amCeiSQtmBAtefIxzSxlbzNfqwLRyYJV9vO2E2Qz_nnPKEjYQYRQHgCZxCJtDCxURlVE16U-JTtHTa0hsoO3xMSJeMtf_R9rtL0nY6UL_AYKps7NwTxIYVmwiSCbqHztjfAMtXBUsoqkaalMxybq7hvhcEtC4wbPaUs797S0TEkiqxftdt-j-n-INjI=w1280
   - name: Dr Hu Yuan Qiong
-    link: /members/hu-yuan-qiong/
+    link: https://www.soas.ac.uk/about/hu-yuan-qiong
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcQ_SfrxNXrq8UInXOtgwb08xMg4Ro65eMpQb4J32zRZQZf59hlZUNLV-28UnKCxqpkplZCqYXrvRemg9Q_k1rb1EvlfSIR_5V0DDFFhFesNsrqR1wFzr2L9iNAXBTqNRRWof8QPve4BqipYAG2Jq9bTNXIdTwaftn2aosQQCl5GVqFyEU_Ap9NqOazsyke2U-80QhIPr67EPt1QfO66JAiwvXearfyabj9WOABElQ=w1280
   - name: Prof. David Takacs
     link: https://www.uchastings.edu/people/david-takacs/
@@ -64,41 +65,38 @@
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeUMjB4oCDXm5Qanx35Kkcy_NLyWN6F54vUz9Va2RlhQEhN-axDeQp1tdnf-owizX0MWBEXkIHZYK2uXrUn7Is04qNcYBpKAcREo2IUpkRYeWdjQ036hlhM-Ytfw1RkzbAladHM7BRcHgxxAGKVL50mT0IRCJTO2-q9Z1BWqu7RKK3fMnfcrg4JRBAgfWohGCq2TpCuH0G9XwSnLWTrG9JyeD4r0jFZavQPwSVBaqo=w1280
 - group: Doctoral researchers
   people:
+  - name: Mr Naser Alsayed
+    link: https://www.soas.ac.uk/about/naser-alsayed
+    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQf-epQKA_9IkRrvjz__WzDFE00ax-S9IyHcOWiiMebPYU9KTXoXs_n9uV2BD5HiAwwyPmCsg3hfHwwcg1XNHyz4yDZMBmo3cdYd_D_I8eyaCtHaYhWpYeTYYYh4xeV5A5fNMQ73wWnKRCiCYVDezZpp2UhDvGvh3CFX_WyBcmRTo5KNcTJ4Ny-sTUiKF-puMVaeBgwrmbqfJlHsI_ECCg57P3EIkm6XvRLnWSrbXf4=w1280
   - name: Mr Harendra Beniwal
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeuyMcHneDyxSNusBgW9LJi5RIwY2gmrmf0JG4mcIVRI5_o74wln3XUtvg-bPZLPCdQUsSpUH7FopRfZxM_xVE-0DcmlET4OuqiLbrg59w0Ffuop8jVV1BEAJe9RnYIrnQYEpGALdm8QbG_0GmFLudQGX0DPLypF2lBFef-GrMPyI94roaEFd4jj9mho47u-aX3SuBGi7gtsY4Mlpm9XQ2KkpxeIjODU4uoTCrO0zY=w1280
-    email: 683829@soas.ac.uk
+    link: https://www.soas.ac.uk/about/harendra-beniwal
   - name: Ms Laya Meriyanda
-    link: /members/laya-meriyanda/
+    link: https://www.soas.ac.uk/about/laya-meriyanda
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcNcJ1wFa1Qs4-6-sOsu89HthqhMwLJfRZWCfhsih-XHBBaYxQHBojfUYutPnpHdlkyikhsja52fx3OC7xhqFasq1ZxiEedYVaceTqtetHF8d3MWir8M-ZfBvH4A4k3r50-aC0aR1nWrnvrxebnmDlazoOfMSDUicxrDBaE-xYUd3iWHsjNvm61Se_YSNyv66yLBzb9L3HV9Kni6mc08PlPek-vGmmPvJ8DLD2tRQA=w1280
-    email: 713972@soas.ac.uk
   - name: Ms Bonosree Rani
-    link: /members/bonosree/
+    link: https://www.soas.ac.uk/about/bonosree-rani
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQequtGrYTpXd0n6lwsq-uOGQ39fWQStqfRkON5pFaoVJpBBk8hYDe_NjXJbcgUhQI3TEXXJ3cWLBIJbpz7cIFfDMENDY5ge3I5ebEAxZ5Cz6XQ1RsFrhWmzC162o2MWdgE3icgf-PrTooZDnulCKIvgx7aGUf-Jvow1fPq4AxX46uRcvUeNUyW4FJetI_A2C6iEKAw-fq9yS4iqDYJKYk9ApIgpDIm65gUPcfY9d9s=w1280
-    email: 686255@soas.ac.uk
   - name: Ms Labiba Rukhsana
-    link: /members/labiba-rukhsana/
+    link: https://www.soas.ac.uk/about/labiba-rukhsana
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfYRX3ZES2OpaEilfeZsRtYjsupgo_ClfzOCyE1N2AJkhGRhcc6MJ4Hl_IcoElGuswH9FRe0qLDXwjsD1-Eltp8RhFwT3fYQUEtkXwNVU7VQB5r1CRtwjmOnDQ-ynqwE5SmBTcJyADrY5KHlM7m5seUZ5BFxeai76qAM6hpSAapAWH-8od7TaEEnNmbkgucGmTtuYmZgSIhlMHLRUo1AI--2fo1MdDWH5o4whkVqQU=w1280
-    email: 263953@soas.ac.uk
   - name: Mr Mohammad Golam Sarwar
     link: https://www.soas.ac.uk/about/mohammad-golam-sarwar
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfQys28C6jtzEE6JrGXUkf-vW3vsd2Pr3f-Let5ypnc_DjL9pABqJVCgZlu431pCY7IAsStqxgrEIb5TuunVWqk4LXcIN2q-F9IRrwlq2hRgAjt2g6opXxlM7FLjCIhBgvgunr7IrhlQXB5ZcFXSAVDlnLt0jWjmng92MyMoQr70XWHN_v4wNZP8XmRVdIZMAnYr6tQolbCziSNamIgy0Nwp4_WcDYaFi7KJ6JV_iA=w1280
-    email: 694129@soas.ac.uk
   - name: Ms Marta Simonetti
     link: https://www.soas.ac.uk/about/marta-simonetti
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdbA_ylbWbOLWlmAHCHnwkXLc6SaUxzaZi1KOObv_pXDqh99NrlkBz2iR9t6wi__qjjqpJ42A__J-046nsjiBU_dmh3SrgSwFMtuWo_0RDCooP9Ss6nycLLtPlnJPlJ0-R5ZHpcvl2vAA9o-oH5vjUokxujTn3rkNQDb2K0UVtvfWDQive7Y52WE9rgXXnYaIsD0jnra7lyTQTu8cpqXgChCo96DhpCoykobmrOt0o=w1280
-    email: 558431@soas.ac.uk
   - name: Mr KMS Tareq
-    link: https://www.soas.ac.uk/about/kms-tareq
+    link: https://www.soas.ac.uk/about/kms-tareq-0
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeV5kiZFdiPqiQs6SQlqF77_jZtQJQHJALAnOUUyfZfDrFPj1KbgAqL5mZ98pOs5blmdDbKe6QUmk239MPrSM5BYRd3B84BdDsWHyrlqzXsDs3szhHlKaLAJVT1V2DGnLAXru9JMGdTf1z0603fHW9y9S_E71DkoP7YEWHjcgl4rbvFF-xk82ZyV2cM2MSKb0DV6dvU5nKq8lWID8dM79T2_db8CVe1y958Vjt2=w1280
-    email: kt26@soas.ac.uk
   - name: Mr Liqi Wu
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQflj3e7quFB_eW4-05jK0zxorayY02n9PTH5nJr2x5_AoK0zPdjRDnhXZg04gOxc-ndrF0uBaiHyfX7p5FYjh3R5lXmhjjHinkNPAebrb3Tcyhmyp1QreZBQGY2vJldfHT_0UT_qDyOzk7cS0L1nqdIazpgOlIgeqYg7wws38kQJP2waeqxCqmhm4qdPdNnJw1hgdglkvimyuX_RhnVxXpJi--cjwzSfusixEUWeis=w1280
-    email: 713756@soas.ac.uk
+    link: https://www.soas.ac.uk/about/wu-liqi
   - name: Mr Debarshee Dasgupta
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQewvK7a0vIMvilQqqjmsjJDFfhRgtzT8jfHU-a0fl4KIsPv55smHwEvihhRxin_qnwRm1cO9K4GKkwqLVPQhY39bJM4r0b57mWkYpd0GxEluH609fprQTrjG-Wi9rbVjKuYkWYx58ANVYqlvv4ZHLZBaY8BShXHMoYZVbi1PkwRIvbWVdth4fjQVH5NSbOJcoMt3gPXfAKeY2ft6xVMWntksp2EogakL_N3cHIUNzM=w1280
+    link: https://www.soas.ac.uk/about/debarshee-dasgupta
   - name: Ms Pamoda Jayasundara
     link: https://www.soas.ac.uk/about/pamoda-jayasundara
-    email: 734195@soas.ac.uk
 - group: Alumni
   people:
   - name: Dr Ruchi Shree
@@ -109,9 +107,6 @@
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeKH0BuPTS7n0IFz6kr0l_2gAygn9AAKAcaG4U7bAhDDWwa8GvmW9JkedVBlc45N5AHAZEe_3toUp8wwwtqQ8TFK2-0jfIuzIJlrnfTWW1_R06SdG_EcG7GIqp3NI6wZEY5PxQ4M0EPiuEtVgz3YOryGMdWpsVCz8d8JgDYpkc0N5cgULm8Nx1HyZVpnwu6TlXtYnxQHeoc4K11aWOwczPzM51bwGXCYw2At9KM=w1280
   - name: Ms Sara Almohanadi
     photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdmZjcSIT3opYCEmgbR7Ii4LrtDLEyBXARGfh80wa9W-CBFVeDtZ84S-xZxeNRJJO4-d5-eZ1swmQ6W-shvjPLCnojeW2bJQmhE1H4mI-ZSP0Qm8CbRfwScpxNhODNQ8dbY4xCsSBPiUVqXVx7oHzFySVJV1x-LJoLRQp3QYuUuhDErVxD5DueYaeGQfLux_IfiSG_sYW4p6JyPRLoo67we2eOXZ3Tf_qsu50Ppnpk=w1280
-  - name: Mr Naser Alsayed
-    link: https://www.soas.ac.uk/about/naser-alsayed
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQf-epQKA_9IkRrvjz__WzDFE00ax-S9IyHcOWiiMebPYU9KTXoXs_n9uV2BD5HiAwwyPmCsg3hfHwwcg1XNHyz4yDZMBmo3cdYd_D_I8eyaCtHaYhWpYeTYYYh4xeV5A5fNMQ73wWnKRCiCYVDezZpp2UhDvGvh3CFX_WyBcmRTo5KNcTJ4Ny-sTUiKF-puMVaeBgwrmbqfJlHsI_ECCg57P3EIkm6XvRLnWSrbXf4=w1280
 - group: Alumni voices
   people:
   - name: Illari Aragon
