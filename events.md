@@ -15,7 +15,7 @@ permalink: /events/
   </div>
 
   <div class="link-cards">
-    <a class="link-card" href="{{ '/events/seminar-series/' | relative_url }}"><strong>Annual Seminar Series</strong><span>Posters and speakers from past LEDC seminar series</span></a>
+    <a class="link-card" href="{{ '/events/seminar-series/' | relative_url }}"><strong>Annual Seminar Series</strong><span>Speakers and topics from past LEDC seminar series</span></a>
     <a class="link-card" href="{{ '/events/collaborations/' | relative_url }}"><strong>Events &amp; Collaborations</strong><span>Workshops, consultations and joint events</span></a>
   </div>
 
