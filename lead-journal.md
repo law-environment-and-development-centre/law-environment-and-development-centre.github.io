@@ -15,9 +15,7 @@ It is published online on the [LEAD Journal](https://lead-journal.org) website.
 
 The editors of the LEAD Journal invite original, unpublished manuscripts in the form of long or short Articles, Notes, Comments, and Book Reviews in the field of international and regional environmental law, and domestic environmental laws of developing countries.
 
-LEAD Journal adopts a broad view of the environment and also solicits writings,
-
-which examine the links between the environment and related concerns, such as human rights, poverty or trade.
+LEAD Journal adopts a broad view of the environment and also solicits writings which examine the links between the environment and related concerns, such as human rights, poverty or trade.
 
 LEAD Journal encourages scholarship, which combine theoretical and practical approaches to the study of environmental law and practice.
 
