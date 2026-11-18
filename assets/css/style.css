@@ -357,3 +357,6 @@ details[open] summary { margin-bottom: .6rem; }
 .projects--compact .btn--outline { color: #fff; }
 .projects--compact .btn--outline:hover { background: #fff; border-color: #fff; color: var(--dark-blue); }
 main:focus { outline: none; }
+.home-intro .link-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 0; }
+@media (max-width: 1000px) { .home-intro .link-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .home-intro .link-cards { grid-template-columns: 1fr; } }
