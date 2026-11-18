@@ -7,7 +7,7 @@
   <div class="event__body">
     <h3>{{ e.title }}</h3>
     <p class="event__meta">
-      {{ e.date | date: "%-d %B %Y, %H:%M" }}{% if e.end %} – {{ e.end }}{% endif %}
+      {% assign hm = e.date | date: "%H:%M" %}{{ e.date | date: "%-d %B %Y" }}{% if hm != "00:00" %}, {{ hm }}{% if e.end %} – {{ e.end }}{% endif %}{% endif %}
       {% if e.location %}<br>{{ e.location }}{% endif %}
     </p>
     {% if include.full and e.content != "" %}<div class="event__text">{{ e.content | markdownify }}</div>{% endif %}

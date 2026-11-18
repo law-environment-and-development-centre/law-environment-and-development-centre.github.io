@@ -19,7 +19,6 @@ You can make every change below in your web browser on github.com. You don't nee
 | LLM/MA module pages | `_modules/` (one file per module) |
 | PhD projects (ongoing ones link to SOAS profiles) | `_data/phd.yml` |
 | Members (academics, associates, PhD researchers, alumni) | `_data/members.yml` |
-| Seminar series archive | `_data/seminar_archive.yml` |
 | Events & collaborations | `_data/collaborations.yml` |
 | Advice, transnational education & impact | `research/advice-impact.md` |
 | LEAD Journal page | `lead-journal.md` |
