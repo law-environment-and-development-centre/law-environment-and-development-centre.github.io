@@ -11,7 +11,7 @@ description: >-
   environment and development.
 
 # When ledc.info is pointed here, change url to "https://ledc.info" (see README).
-url: "https://law-environment-and-development-centre.github.io"
+url: "https://soasledc.org"
 baseurl: ""
 timezone: Europe/London
 
