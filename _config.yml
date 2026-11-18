@@ -10,11 +10,9 @@ description: >-
   London investigates the dynamic relationships between the fields of law,
   environment and development.
 
-# While the site lives at drnatepalmer.com/ledc keep baseurl as "/ledc".
-# When ledc.info is pointed here, change baseurl to "" and add a CNAME file
-# containing ledc.info (see README).
-url: "https://drnatepalmer.com"
-baseurl: "/ledc"
+# When ledc.info is pointed here, change url to "https://ledc.info" (see README).
+url: "https://law-environment-and-development-centre.github.io"
+baseurl: ""
 timezone: Europe/London
 
 # Contact details (used in the footer and on the Contact block)

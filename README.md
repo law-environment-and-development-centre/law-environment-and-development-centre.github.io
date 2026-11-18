@@ -2,7 +2,7 @@
 
 The website of the Law, Environment and Development Centre (LEDC), SOAS University of London.
 
-It runs on GitHub Pages (free). Every change you commit to this repository rebuilds the site automatically, usually within a minute or two.
+It runs on GitHub Pages (free), from the law-environment-and-development-centre organisation. Every change you commit to this repository rebuilds the site automatically, usually within a minute or two.
 
 You can make every change below in your web browser on github.com. You don't need to install anything.
 
@@ -61,6 +61,6 @@ Go to **Settings → Collaborators → Add people**. They can then edit everythi
 
 ## Moving to ledc.info
 
-1. In `_config.yml`, set `url: "https://ledc.info"` and `baseurl: ""`.
+1. In `_config.yml`, set `url: "https://ledc.info"`.
 2. Go to **Settings → Pages → Custom domain**, enter `ledc.info`, and save.
 3. At the domain registrar (currently connected to Wix), point the domain to GitHub Pages. GitHub lists the DNS records under **Settings → Pages**.
