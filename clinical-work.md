@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Clinical Work
+eyebrow: SOAS Environmental Justice Clinic
+description: The SOAS Environmental Justice Clinic, convened by LEDC, gives students experience of public interest legal and policy work on environmental protection and human rights.
 permalink: /clinical-work/
 side_image: https://static.wixstatic.com/media/e23131_fe15e31eecdc4c58802fe0d2e46d9c0e~mv2.jpg/v1/fit/w_1000,h_1000,q_85,enc_auto/e23131_fe15e31eecdc4c58802fe0d2e46d9c0e~mv2.jpg
 intro: |-
@@ -9,20 +11,22 @@ intro: |-
   The Clinic enables students to build their research, writing, and policy advocacy skills by contributing to ongoing campaigns, legal interventions, and collaborative research projects both globally and within the UK.
 ---
 
-<section class="wrap arms">
-<div class="prose" markdown="1">
-
-Since 2022, the SOAS Environmental Justice Clinic has partnered with NGOs, charities and legal advocates to provide impactful, critical and high-quality legal and policy research. The Clinic has two arms:
-
-</div>
-<div class="arms__grid">
-  <div class="arm"><h3>Environmental Policy Clinic</h3><p>Provides high-quality research that addresses the pressing environmental challenges of the day and informs advocacy.</p></div>
-  <div class="arm"><h3>Legal Advice Clinic</h3><p>Provides formal legal advice on environmental law matters, with supervision by barristers and solicitors.</p></div>
-</div>
+<section class="wrap section" aria-labelledby="arms-title">
+  <div class="prose">
+    <p>Since 2022, the SOAS Environmental Justice Clinic has partnered with NGOs, charities and legal advocates to provide impactful, critical and high-quality legal and policy research. The Clinic has two arms:</p>
+  </div>
+  <h2 class="visually-hidden" id="arms-title">The Clinic's two arms</h2>
+  <ul class="defs defs--2">
+    <li><h3>Environmental Policy Clinic</h3><p>Provides high-quality research that addresses the pressing environmental challenges of the day and informs advocacy.</p></li>
+    <li><h3>Legal Advice Clinic</h3><p>Provides formal legal advice on environmental law matters, with supervision by barristers and solicitors.</p></li>
+  </ul>
 </section>
 
-<section class="wrap split">
-<div class="split__main panel panel--sky" markdown="1">
+<section class="wrap section section--rule" aria-labelledby="work-title">
+  <div class="split">
+<div class="prose" markdown="1">
+
+## Student work and partnerships {#work-title}
 
 Working closely with partner organisations such as the Environmental Law Foundation (ELF), ClientEarth, The Wildlife Trusts and Lawyers for Nature, students have contributed to a wide variety of initiatives.
 
@@ -37,30 +41,20 @@ In collaboration with Lawyers for Nature, students have also undertaken comparat
 Through these diverse projects, the Clinic creates a platform for SOAS students, both postgraduate and undergraduate, to apply their academic knowledge in real-world contexts, while contributing to the wider movement for environmental justice and transformative legal change.
 
 </div>
-<aside class="split__side partners" aria-label="Partner organisations">
-  {%- for p in site.data.partners %}
-  {% if p.url != "" %}<a href="{{ p.url }}">{% endif %}<img src="{% include src.html src=p.logo %}" alt="{{ p.name }}" loading="lazy">{% if p.url != "" %}</a>{% endif %}
-  {%- endfor %}
-</aside>
+    <aside aria-labelledby="partners-title">
+      <h2 class="subhead" id="partners-title">Partners</h2>
+      <ul class="partners">
+        {%- for p in site.data.partners %}
+        <li>{% if p.url != "" %}<a href="{{ p.url }}">{% endif %}<img src="{% include src.html src=p.logo %}" alt="{{ p.name }}" loading="lazy">{% if p.url != "" %}</a>{% endif %}</li>
+        {%- endfor %}
+      </ul>
+    </aside>
+  </div>
 </section>
 
-<section class="band band--sea-blue">
-<div class="wrap prose" markdown="1">
-
-## Placements at SOAS
-
-At SOAS, we have a strong commitment to social justice and to contributing to a society in which everyone experiences belonging and is treated with respect.
-
-We have partnered with different organisations to enable our students to develop their legal skills and knowledge in different areas of law. Through our clinical legal education programme, students have an opportunity to enhance their employability and benefit from practical experiences, taking 'a law-in-action approach'.
-
-Our clinical legal education programme is designed to foster inclusion. By promoting and facilitating our students' access to experiential learning opportunities, we are fostering equality, equity and diversity – not just on our campus, but also within the wider community. We are proud to be associated with causes promoting access to justice and the rule of law.
-
-</div>
-</section>
-
-<section class="band band--stone">
+<section class="band band--stone" aria-labelledby="projects-title">
   <div class="wrap">
-    <h2 class="band__title band__title--crimson">Recent projects</h2>
+    <h2 class="band__title" id="projects-title">Recent projects</h2>
     <div class="projects">
       {%- for p in site.data.clinic_projects %}
       {% include project-card.html project=p %}
@@ -69,16 +63,31 @@ Our clinical legal education programme is designed to foster inclusion. By promo
   </div>
 </section>
 
-<section class="wrap outputs" id="outputs">
+<section class="wrap section" id="outputs" aria-labelledby="reports-title">
+  <h2 class="section__title" id="reports-title">Reports and publications</h2>
+  <ul class="reports">
+    {%- for r in site.data.clinic_reports %}{% if r.group == "reports" %}
+    {% include report.html r=r %}
+    {%- endif %}{% endfor %}
+  </ul>
+  <h3 class="subhead">Other project outputs</h3>
+  <ul class="reports">
+    {%- for r in site.data.clinic_reports %}{% if r.group == "outputs" %}
+    {% include report.html r=r %}
+    {%- endif %}{% endfor %}
+  </ul>
+</section>
+
+<section class="wrap section section--rule" aria-labelledby="placements-title">
 <div class="prose" markdown="1">
 
-## Reports and outputs
+## Placements at SOAS {#placements-title}
 
-- [Environmental Justice Clinic Report 2025/26](https://drive.google.com/file/d/185EyBZyWcmFBf1v1_kxfKBYn-2oS9PIX/view): a year of five projects and the legal advice clinic
-- [Representing Rights of Nature: A Survey of Representative Forms](https://www.soas.ac.uk/about/news/soas-environmental-law-clinic-partners-lawyers-nature-rights-nature-representative-model), with Lawyers for Nature
-- [Rights of Nature and the River Ouse](https://www.soas.ac.uk/about/news/soas-students-champion-rights-nature-pro-bono-project-river-ouse): two reports on the River Ouse in Sussex
-- [Response to the International Criminal Court's Draft Policy on Environmental Crimes](https://www.soas.ac.uk/about/news/soas-environmental-law-clinic-calls-icc-recognise-environment-legal-victim)
-- [Local level climate action](https://www.soas.ac.uk/about/news/students-study-impact-councils-climate-emergency-declarations): research on councils' climate emergency declarations, with the Environmental Law Foundation
+At SOAS, we have a strong commitment to social justice and to contributing to a society in which everyone experiences belonging and is treated with respect.
+
+We have partnered with different organisations to enable our students to develop their legal skills and knowledge in different areas of law. Through our clinical legal education programme, students have an opportunity to enhance their employability and benefit from practical experiences, taking 'a law-in-action approach'.
+
+Our clinical legal education programme is designed to foster inclusion. By promoting and facilitating our students' access to experiential learning opportunities, we are fostering equality, equity and diversity – not just on our campus, but also within the wider community. We are proud to be associated with causes promoting access to justice and the rule of law.
 
 </div>
 </section>

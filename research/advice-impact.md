@@ -2,9 +2,11 @@
 layout: page
 title: "Advice, Transnational Education and Impact"
 permalink: /research/advice-impact/
+eyebrow: '<a href="/research/">Research</a>'
+description: Policy advice, transnational education and expert networks involving the SOAS Law, Environment and Development Centre.
 ---
 
-<section class="wrap prose" markdown="1">
+<section class="wrap section prose" markdown="1">
 
 ## Advice
 

@@ -3,6 +3,6 @@
   <img src="{% include src.html src=p.image %}" alt="" loading="lazy">
   <h3>{{ p.title }}</h3>
   {% if include.short != true %}<p>{{ p.text }}</p>{% endif %}
-  {% if p.link != "" %}<a class="btn btn--outline" href="{{ p.link }}">Read more<span class="visually-hidden"> about {{ p.title }}</span></a>{% endif %}
-  {%- comment -%} TODO: Species Reintroduction and Corporate Environmental Commitments have no public write-up yet; add a link in _data/clinic_projects.yml when there is one. {%- endcomment -%}
+  {% if p.link != "" %}<a class="more" href="{{ p.link }}">Read more<span class="visually-hidden"> about {{ p.title }}</span></a>{% endif %}
+  {%- comment -%} Species Reintroduction and Corporate Environmental Commitments have no public write-up yet; add a link in _data/clinic_projects.yml when there is one. {%- endcomment -%}
 </article>

@@ -14,6 +14,7 @@ You can make every change below in your web browser on github.com. You don't nee
 | Team members, bios, photos | `_data/team.yml` |
 | Research projects (and which ones are featured on the homepage) | `_data/research.yml` |
 | Clinic projects | `_data/clinic_projects.yml` |
+| Clinic reports and publications | `_data/clinic_reports.yml` (covers in `assets/img/reports/`) |
 | Clinic partner logos | `_data/partners.yml` |
 | Research themes (About page) | `_data/themes.yml` |
 | LLM module pages | `_modules/` (one file per module; `semester:` is the SOAS term, 1 or 2) |
@@ -23,7 +24,7 @@ You can make every change below in your web browser on github.com. You don't nee
 | Advice, transnational education & impact | `research/advice-impact.md` |
 | Menu items | `_data/navigation.yml` |
 | Address, email, social links | `_config.yml` |
-| Page text | `about.md`, `degree-programmes.md`, `clinical-work.md`, `research.md`, `index.html` |
+| Page text | `about.md`, `degree-programmes.md` (Teaching & Study), `clinical-work.md`, `research.md`, `index.html` |
 | Colours and fonts | `assets/css/style.css` (top of the file) |
 
 ## Adding an event

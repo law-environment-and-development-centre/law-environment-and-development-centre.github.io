@@ -1,0 +1,13 @@
+{%- assign r = include.r -%}
+<li class="report{% unless r.cover %} report--nocover{% endunless %}">
+  {% if r.cover %}<img class="report__cover" src="{{ r.cover | relative_url }}" alt="" width="96" height="136" loading="lazy">{% endif %}
+  <div>
+    <h3>{{ r.title }}</h3>
+    <p class="report__meta">{{ r.date }}{% if r.partner %} · with {{ r.partner }}{% endif %}</p>
+    <p>{{ r.description }}</p>
+    <p class="card__links">
+      <a class="more" href="{{ r.link }}">{{ r.link_label }}<span class="visually-hidden">: {{ r.title }}</span></a>
+      {% if r.more %}<a class="more" href="{{ r.more }}">{{ r.more_label }}<span class="visually-hidden">: {{ r.title }}</span></a>{% endif %}
+    </p>
+  </div>
+</li>

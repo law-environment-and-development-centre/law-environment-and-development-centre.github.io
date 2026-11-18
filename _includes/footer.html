@@ -13,7 +13,7 @@
     <nav aria-label="Footer">
       <ul>
         {%- for item in site.data.navigation %}
-        <li><a href="{% include src.html src=item.url %}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        <li><a href="{% include src.html src=item.url %}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a></li>
         {%- endfor %}
       </ul>
     </nav>

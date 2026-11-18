@@ -5,67 +5,68 @@ permalink: /
 ---
 <section class="hero">
   <img class="hero__img" src="{% include src.html src=site.data.images.home_hero %}" alt="Living root bridge and waterfall at Nongriat, Meghalaya">
-  <div class="hero__box">
-    <h1>Law, Environment and Development Centre</h1>
+  <div class="hero__inner wrap">
+    <div class="hero__box">
+      <h1>Law, Environment and Development Centre</h1>
+    </div>
   </div>
 </section>
 
-<section class="wrap home-intro">
+<section class="wrap section" aria-labelledby="intro-title">
+  <h2 class="visually-hidden" id="intro-title">About the Centre</h2>
   <p class="lead">The Law, Environment and Development Centre (LEDC), based in the College of Law at SOAS University of London, investigates the dynamic relationships between law, environment and development. Its research focuses in particular on topics of relevance to the Global South and to North–South relations, and its teaching combines core subjects in environmental law with a critical inquiry into the theory and practice of the field.</p>
-  <div class="link-cards">
-    <a class="link-card" href="{{ '/research/' | relative_url }}"><strong>Research</strong><span>Water, land, forests, climate change, biodiversity and rights of nature</span></a>
-    <a class="link-card" href="{{ '/degree-programmes/' | relative_url }}"><strong>Teaching</strong><span>The LLM in Environmental Law and Sustainable Development and related programmes</span></a>
-    <a class="link-card" href="{{ '/research/advice-impact/' | relative_url }}"><strong>Policy and advice</strong><span>Advice to governments, transnational education and expert networks</span></a>
-    <a class="link-card" href="{{ '/clinical-work/' | relative_url }}"><strong>Environmental Justice Clinic</strong><span>Students working on public interest legal and policy projects with partner organisations</span></a>
-  </div>
+  <ul class="defs home-pillars">
+    <li><h3><a class="more" href="{{ '/research/' | relative_url }}">Research</a></h3><p class="muted">Water, land, forests, climate change, biodiversity and rights of nature</p></li>
+    <li><h3><a class="more" href="{{ '/degree-programmes/' | relative_url }}">Teaching</a></h3><p class="muted">The LLM in Environmental Law and Sustainable Development and related programmes</p></li>
+    <li><h3><a class="more" href="{{ '/research/advice-impact/' | relative_url }}">Policy and advice</a></h3><p class="muted">Advice to governments, transnational education and expert networks</p></li>
+    <li><h3><a class="more" href="{{ '/clinical-work/' | relative_url }}">Environmental Justice Clinic</a></h3><p class="muted">Students working on public interest legal and policy projects with partner organisations</p></li>
+  </ul>
 </section>
 
-<section class="band band--light">
+<section class="band band--light" aria-labelledby="featured-title">
   <div class="wrap">
-    <h2 class="band__title">Featured research</h2>
-    <div class="research">
+    <h2 class="band__title" id="featured-title">Featured research</h2>
+    <ul class="cards">
       {%- for r in site.data.research %}{% if r.featured %}
       {% include research-card.html r=r %}
       {%- endif %}{% endfor %}
-    </div>
-    <p class="home-more"><a class="btn btn--dark" href="{{ '/research/' | relative_url }}">All research projects</a> <a class="btn btn--outline" href="{{ '/research/phd/' | relative_url }}">PhD research</a> <a class="btn btn--outline" href="https://lead-journal.org/">LEAD Journal</a></p>
+    </ul>
+    <p class="actions"><a class="btn btn--dark" href="{{ '/research/' | relative_url }}">All research projects</a> <a class="more" href="{{ '/research/phd/' | relative_url }}">PhD research</a> <a class="more" href="https://lead-journal.org/">LEAD Journal</a></p>
   </div>
 </section>
 
-<section class="band band--stone">
+<section class="band band--stone" aria-labelledby="events-title">
   <div class="wrap">
-    <h2 class="band__title">Upcoming events</h2>
+    <h2 class="band__title" id="events-title">Upcoming events</h2>
     {% include events-list.html which="upcoming" limit=3 empty="No events are scheduled right now. Past seminars and talks are listed on the Events page." %}
-    <p><a class="btn btn--dark" href="{{ '/events/' | relative_url }}">All events</a></p>
+    <p class="actions"><a class="btn btn--dark" href="{{ '/events/' | relative_url }}">All events</a></p>
   </div>
 </section>
 
-<section class="band band--dark-blue">
+<section class="band band--dark-blue" aria-labelledby="clinic-title">
   <div class="wrap">
-    <h2 class="band__title">From the Environmental Justice Clinic</h2>
-    <div class="projects projects--compact">
+    <h2 class="band__title" id="clinic-title">From the Environmental Justice Clinic</h2>
+    <div class="projects">
       {%- for p in site.data.clinic_projects limit: 3 %}
       {% include project-card.html project=p short=true %}
       {%- endfor %}
     </div>
-    <p class="center"><a class="btn btn--outline-light" href="{{ '/clinical-work/' | relative_url }}">About the Clinic</a> <a class="btn btn--outline-light" href="{{ '/clinical-work/' | relative_url }}#outputs">Clinic reports</a></p>
+    <p class="actions"><a class="btn btn--outline-light" href="{{ '/clinical-work/' | relative_url }}">About the Clinic</a> <a class="more" href="{{ '/clinical-work/' | relative_url }}#outputs">Clinic reports and publications</a></p>
   </div>
 </section>
 
-<section class="band band--dark">
-  <div class="wrap">
-    <div class="callout callout--crimson">
-      <h2>Explore LEDC courses and degree programmes</h2>
-      <p>Offerings at undergraduate and postgraduate level</p>
-      <a class="btn btn--outline-light" href="{{ '/degree-programmes/' | relative_url }}">Degree programmes</a>
-    </div>
+<section class="wrap section" aria-labelledby="teaching-title">
+  <div class="home-teaching">
+    <h2 id="teaching-title">Explore LEDC courses and degree programmes</h2>
+    <p class="lead">Offerings at undergraduate and postgraduate level</p>
+    <p class="actions"><a class="btn btn--dark" href="{{ '/degree-programmes/' | relative_url }}">Teaching &amp; Study</a></p>
   </div>
 </section>
 
-<section class="band band--sea-blue">
+<section class="band band--sea-blue" aria-labelledby="team-title">
   <div class="wrap">
-    <h2 class="band__title">Meet the team</h2>
+    <h2 class="band__title" id="team-title">Meet the team</h2>
     {% include team-strip.html %}
-    <p class="center"><a class="btn btn--outline-light" href="{{ '/about/#team' | relative_url }}">Learn about the academic staff who work at and support the centre</a></p>
+    <p class="center"><a class="more" href="{{ '/about/#team' | relative_url }}">Learn about the academic staff who work at and support the centre</a></p>
   </div>
 </section>

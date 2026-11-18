@@ -1,0 +1,61 @@
+# Reports and publications on the Clinical Work page, newest first.
+# group: reports (published reports with a PDF) or outputs (project pages and news about other work)
+# cover: optional small cover image (the report's own first page), stored in assets/img/reports/
+# link_label: what the main link says, e.g. "Read the report (PDF, 6.5 MB)"
+# Only add titles, dates and links you can check against the published source.
+
+- group: reports
+  title: "SOAS Environmental Justice Clinic Annual Report 2025/26"
+  date: "2026"
+  description: Covers one legal advice clinic and five policy projects on Rights of Nature, international climate change law, policy and ecological economics.
+  cover: /assets/img/reports/soas-environmental-justice-clinic-annual-report-2025-26.jpg
+  link: https://drnatepalmer.com/reports/soas-environmental-justice-clinic-annual-report-2025-26.pdf
+  link_label: "Read the report (PDF, 6.5 MB)"
+
+- group: reports
+  title: "Advancing Innovative Legal Clinics for Ecological Justice"
+  date: "2026"
+  description: Reports on a May 2026 workshop that reviewed the Clinic's work since its launch in September 2022, and sets out four priorities ahead of a new full-year, credit-bearing clinical module from 2027/28. Prepared by Chlöe Jayne Prescott.
+  cover: /assets/img/reports/advancing-innovative-legal-clinics-for-ecological-justice-2025-26.jpg
+  link: https://drnatepalmer.com/reports/advancing-innovative-legal-clinics-for-ecological-justice-2025-26.pdf
+  link_label: "Read the report (PDF, 0.4 MB)"
+
+- group: reports
+  title: "Representing Rights of Nature: A Survey of Representative Forms"
+  date: "October 2024"
+  partner: Lawyers for Nature
+  description: Maps and analyses the models through which Nature is represented in law around the world.
+  link: https://www.soas.ac.uk/sites/default/files/2024-10/SOAS%20and%20LFN%20-%20Representing%20Rights%20of%20Nature%20A%20Survey%20of%20Representative.pdf
+  link_label: "Read the report (PDF, 3.3 MB)"
+  more: https://www.soas.ac.uk/about/news/soas-environmental-law-clinic-partners-lawyers-nature-rights-nature-representative-model
+  more_label: "SOAS news story"
+
+- group: outputs
+  title: "Incorporating the River Thames as a Key Stakeholder in Decision-making Affecting the River"
+  date: "April 2026"
+  partner: Environmental Law Foundation
+  description: One of three reports from the London intercollegiate clinic on a Charter for the River Thames, co-supervised by Dr Marie Petersmann (LSE) and Dr Nate Palmer (SOAS).
+  link: https://www.lse.ac.uk/global-school-of-sustainability/themes/mobilising-political-legal-governance-systems/clinic/intercollegiate/a-charter-for-the-river-thames
+  link_label: "Project page (LSE)"
+
+- group: outputs
+  title: "Response to the International Criminal Court's Draft Policy on Environmental Crimes"
+  date: "May 2025"
+  description: A submission urging the International Criminal Court to recognise the environment as a direct victim of international crimes.
+  link: https://www.soas.ac.uk/about/news/soas-environmental-law-clinic-calls-icc-recognise-environment-legal-victim
+  link_label: "SOAS news story"
+
+- group: outputs
+  title: "Rights of Nature and the River Ouse"
+  date: "May 2024"
+  description: Two reports on Rights of Nature for the River Ouse in Sussex, including mapping of UK-protected species along the river.
+  link: https://www.soas.ac.uk/about/news/soas-students-champion-rights-nature-pro-bono-project-river-ouse
+  link_label: "SOAS news story"
+
+- group: outputs
+  title: "Local level climate action"
+  date: "January 2024"
+  partner: Environmental Law Foundation
+  description: Research on how UK councils are acting on their climate emergency declarations.
+  link: https://www.soas.ac.uk/about/news/students-study-impact-councils-climate-emergency-declarations
+  link_label: "SOAS news story"

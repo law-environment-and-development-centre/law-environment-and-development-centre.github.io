@@ -2,17 +2,26 @@
 layout: page
 title: Research
 permalink: /research/
+description: Research projects at the SOAS Law, Environment and Development Centre on water, land, climate change, rights of nature and environmental justice.
+intro: >-
+  LEDC adopts multidisciplinary approaches in researching key issues in environmental
+  law and development today. Its research focuses in particular on topics of relevance
+  to the South and to North-South relations.
 ---
 
-<section class="wrap">
-  <div class="link-cards">
-    <a class="link-card" href="{{ '/research/phd/' | relative_url }}"><strong>PhD research</strong><span>Current and completed doctoral projects at the Centre</span></a>
-    <a class="link-card" href="{{ '/research/advice-impact/' | relative_url }}"><strong>Advice, transnational education and impact</strong><span>Policy advice, summer schools and expert networks</span></a>
-  </div>
-  <h2 class="band__title">Research projects</h2>
-  <div class="research">
+<nav class="wrap" aria-label="More on research">
+  <ul class="subnav">
+    <li class="subnav__label">Also in Research:</li>
+    <li><a class="more" href="{{ '/research/phd/' | relative_url }}">PhD research</a></li>
+    <li><a class="more" href="{{ '/research/advice-impact/' | relative_url }}">Advice, transnational education and impact</a></li>
+  </ul>
+</nav>
+
+<section class="wrap section" aria-labelledby="projects-title">
+  <h2 class="section__title" id="projects-title">Research projects</h2>
+  <ul class="cards">
     {%- for r in site.data.research %}
     {% include research-card.html r=r %}
     {%- endfor %}
-  </div>
+  </ul>
 </section>

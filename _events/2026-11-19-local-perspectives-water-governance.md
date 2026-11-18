@@ -1,6 +1,7 @@
 ---
 title: "Local Perspectives on Water Governance: Case Studies from Bangladesh, India and Indonesia"
 date: 2026-11-19 17:00
+end: "19:00"
 location: "Room S209, Paul Webley Wing, SOAS"
 register: https://www.eventbrite.co.uk/e/2004664226666
 ---

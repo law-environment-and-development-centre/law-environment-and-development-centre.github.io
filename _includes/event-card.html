@@ -1,19 +1,17 @@
-{%- comment -%} One event. Used by events-list.html; start/end are Unix timestamps. {%- endcomment -%}
+{%- comment -%} One event entry. Used by events-list.html; start/end are Unix timestamps. {%- endcomment -%}
 {%- assign e = include.event -%}
 {%- assign hm = e.date | date: "%H:%M" -%}
-<article class="event" data-start="{{ include.start }}" data-end="{{ include.end }}"{% if include.hidden %} hidden{% endif %}>
-  <div class="event__date" aria-hidden="true">
-    <span class="event__day">{{ e.date | date: "%-d" }}</span>
-    <span class="event__month">{{ e.date | date: "%b %Y" }}</span>
-  </div>
+{%- if e.image and include.full -%}{%- assign with_image = true -%}{%- else -%}{%- assign with_image = false -%}{%- endif -%}
+<article class="event{% if with_image %} event--image{% endif %}" data-start="{{ include.start }}" data-end="{{ include.end }}"{% if include.hidden %} hidden{% endif %}>
+  <p class="event__date">
+    <time datetime="{{ e.date | date: '%Y-%m-%d' }}"><span class="event__day">{{ e.date | date: "%-d %b %Y" }}</span>
+    <span class="event__weekday">{{ e.date | date: "%A" }}</span></time>
+  </p>
   <div class="event__body">
     <h3>{{ e.title }}</h3>
-    <p class="event__meta">
-      <time datetime="{{ e.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}">{{ e.date | date: "%A %-d %B %Y" }}{% if hm != "00:00" %}, {{ hm }}{% if e.end %}–{{ e.end }}{% endif %}{% endif %}</time>
-      {% if e.location %}<br>{{ e.location }}{% endif %}
-    </p>
+    <p class="event__meta">{% if hm != "00:00" %}{{ hm }}{% if e.end %}–{{ e.end }}{% endif %}{% if e.location %} · {% endif %}{% endif %}{{ e.location }}</p>
     {% if include.full and e.content != "" %}<div class="event__text">{{ e.content | markdownify }}</div>{% endif %}
-    {% if e.register and include.past != true %}<a class="btn btn--small event__register" href="{{ e.register }}">Register<span class="visually-hidden"> for {{ e.title }}</span></a>{% endif %}
+    {% if e.register and include.past != true %}<p class="event__register"><a class="btn btn--dark" href="{{ e.register }}">Register<span class="visually-hidden"> for {{ e.title }}</span></a></p>{% endif %}
   </div>
-  {% if e.image and include.full %}<img class="event__img" src="{% include src.html src=e.image %}" alt="{{ e.image_alt | default: '' }}" loading="lazy">{% endif %}
+  {% if with_image %}<img class="event__img" src="{% include src.html src=e.image %}" alt="{{ e.image_alt | default: '' }}" loading="lazy">{% endif %}
 </article>

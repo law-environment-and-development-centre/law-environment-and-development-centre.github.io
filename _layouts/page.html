@@ -1,23 +1,20 @@
 ---
 layout: default
 ---
-{% if page.banner %}
-<header class="page-banner">
-  <img src="{% include src.html src=page.banner %}" alt="">
-  <h1>{{ page.title }}</h1>
-</header>
-{% elsif page.side_image %}
-<header class="page-intro wrap">
-  <img class="page-intro__img" src="{% include src.html src=page.side_image %}" alt="">
-  <div class="page-intro__text">
+{%- comment -%}
+  Internal pages. Front matter:
+    title        page title (required)
+    eyebrow      optional small label above the title
+    intro        optional introduction under the title (Markdown)
+    side_image   optional photograph shown beside the introduction
+{%- endcomment -%}
+<header class="wrap page-head{% if page.side_image %} page-head--media{% endif %}">
+  <div class="page-head__text">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
     <h1>{{ page.title }}</h1>
-    {{ page.intro | markdownify }}
+    {% if page.intro %}<div class="lead">{{ page.intro | markdownify }}</div>{% endif %}
   </div>
+  {% if page.side_image %}<img class="page-head__img" src="{% include src.html src=page.side_image %}" alt="{{ page.side_image_alt | default: '' }}">{% endif %}
 </header>
-{% else %}
-<header class="page-title wrap">
-  <h1>{{ page.title }}</h1>
-</header>
-{% endif %}
 
 {{ content }}
