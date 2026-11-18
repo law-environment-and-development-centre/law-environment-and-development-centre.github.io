@@ -9,9 +9,9 @@ permalink: /degree-programmes/alternatives-to-sustainable-development-rights-of-
 
 ## Description
 
-This course offers an introduction and critical exploration of ‘Harmony with Nature’ and the emerging legal doctrine of ‘Rights of Nature’ as potential alternatives to sustainable development. It delves into the philosophical roots and evolution of the idea of granting legal rights to the natural world, all within the larger framework of Environmental Law, Earth Law, and the Anthropocene era. Harmony with Nature, in the context of this module, refers to developments at the international and domestic level that promote a paradigmatic shift away from human-centred environmental law, towards a more ecologically-centred legal system. Relatedly, Rights of Nature is a legal concept that recognises nature's intrinsic value and grants certain legal rights to elements of the environment. For instance, the recent rise in granting legal personhood to certain natural entities, like rivers, forests, or specific ecosystems, in different parts of the world, allowing them to be protected and represented, on their own account. These developments have arisen as responses to the shortcomings of sustainable development and traditional environmental law in addressing environmental degradation at local, national, and global levels. The course will examine case studies of rights of nature laws, in their political, social, and legal contexts in various regions, engaging with different developments, such as the granting or river rights in the global North and global South. Throughout the course, students will critically assess the structure and key features of these laws, accounting for this broader context.
+This course offers an introduction and critical exploration of ‘Harmony with Nature’ and the emerging legal doctrine of ‘Rights of Nature’ as potential alternatives to sustainable development. It delves into the philosophical roots and evolution of the idea of granting legal rights to the natural world, all within the larger framework of Environmental Law, Earth Law, and the Anthropocene era. Harmony with Nature, in the context of this module, refers to developments at the international and domestic level that promote a paradigmatic shift away from human-centred environmental law, towards a more ecologically-centred legal system. Relatedly, Rights of Nature is a legal concept that recognises nature's intrinsic value and grants certain legal rights to elements of the environment. For instance, the recent rise in granting legal personhood to certain natural entities, like rivers, forests, or specific ecosystems, in different parts of the world, allowing them to be protected and represented, on their own account. These developments have arisen as responses to the shortcomings of sustainable development and traditional environmental law in addressing environmental degradation at local, national, and global levels. The course will examine case studies of rights of nature laws, in their political, social, and legal contexts in various regions, engaging with different developments, such as the granting of river rights in the global North and global South. Throughout the course, students will critically assess the structure and key features of these laws, accounting for this broader context.
 
-Overall, the module covers topics, such as:
+Overall, the module covers topics such as:
 
 - Sustainable development, ecological jurisprudence and harmony with nature;
 - Ecocentric perspectives and rights of nature;
@@ -29,16 +29,16 @@ On successful completion of this module a student will be able to:
 
 ## Indicative syllabus <span class="muted">(subject to change)</span>
 
-- 1\. (Sustainable) development and Beyond: Ecological jurisprudence and harmony with nature
-- 2\. Rights of nature: Ecocentric perspectives and beyond
-- 3\. Human dimensions: nature-dependent peoples and Indigenous peoples
-- 4\. Implementing rights of Nature: From ecological restoration to Legal Personality
-- 5\. Rights of Nature and Human Rights: Complementary or Opposed?
-- 6\. Comprehensive Rights of nature: The Cases of Ecuador and Bolivia
-- 7\. Animal rights and rights of nature: complementary or distinct?
-- 8\. River rights and river rejuvenation
-- 9\. Global Commons and Rights of Nature: Oceans’ rights
-- 10\. Mock Rights of Nature Tribunal
+1. (Sustainable) development and Beyond: Ecological jurisprudence and harmony with nature
+2. Rights of nature: Ecocentric perspectives and beyond
+3. Human dimensions: nature-dependent peoples and Indigenous peoples
+4. Implementing rights of Nature: From ecological restoration to Legal Personality
+5. Rights of Nature and Human Rights: Complementary or Opposed?
+6. Comprehensive Rights of nature: The Cases of Ecuador and Bolivia
+7. Animal rights and rights of nature: complementary or distinct?
+8. River rights and river rejuvenation
+9. Global Commons and Rights of Nature: Oceans’ rights
+10. Mock Rights of Nature Tribunal
 
 ## Reference books
 

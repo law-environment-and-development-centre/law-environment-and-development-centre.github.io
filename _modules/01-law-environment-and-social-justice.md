@@ -2,7 +2,7 @@
 title: Law, Environment and Social Justice
 code: PLAH067
 credits: 15
-semester: 1
+semester: 2
 order: 1
 permalink: /degree-programmes/law-environment-and-social-justice/
 ---
@@ -21,16 +21,16 @@ The course seeks to:
 
 ## Indicative syllabus <span class="muted">(subject to change)</span>
 
-- 1\. Introduction: Foundations and development of environmental law
-- 2\. Framing Environmental Law in a South-North Context: Poverty and Development
-- 3\. Whose Environmental Law? From Colonial Influences to International and Transnational Environmental Law
-- 4\. Constitutional law and fundamental rights
-- 5\. Environmental justice and equity
-- 6\. Principles of environmental law: prevention, precaution & polluter pays
-- 7\. Framing environmental protection: scientific bases and economic approaches
-- 8\. Evolving approaches to environmental law: Rights of nature
-- 9\. Regulation of environmental protection (command & control/standards) and planning
-- 10\. Enforcement of environmental law: Environmental courts, alternative dispute resolution and public interest litigation
+1. Introduction: Foundations and development of environmental law
+2. Framing Environmental Law in a South-North Context: Poverty and Development
+3. Whose Environmental Law? From Colonial Influences to International and Transnational Environmental Law
+4. Constitutional law and fundamental rights
+5. Environmental justice and equity
+6. Principles of environmental law: prevention, precaution & polluter pays
+7. Framing environmental protection: scientific bases and economic approaches
+8. Evolving approaches to environmental law: Rights of nature
+9. Regulation of environmental protection (command & control/standards) and planning
+10. Enforcement of environmental law: Environmental courts, alternative dispute resolution and public interest litigation
 
 ## Reference books
 

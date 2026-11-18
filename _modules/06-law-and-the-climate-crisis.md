@@ -2,7 +2,7 @@
 title: Law and the Climate Crisis
 code: PLAH085
 credits: 15
-semester: 2
+semester: 1
 order: 6
 permalink: /degree-programmes/law-and-the-climate-crisis/
 ---
@@ -21,16 +21,17 @@ Students on completing the course will be able to demonstrate a comprehensive un
 
 **International Climate Regime**
 
-- 1\. Introduction: The UN Framework Convention on Climate Change and the Paris Agreement
-- 2\. Climate Justice and Principles of the Climate Change Regime (Sovereignty, Precaution and Equity)
-- 3\. Climate Finance and Market Mechanisms
-- 4\. Liability, Loss & Damage and Disaster Risk Management
-- 5\. Energy Transitions and Just Transition
+1. Introduction: The UN Framework Convention on Climate Change and the Paris Agreement
+2. Climate Justice and Principles of the Climate Change Regime (Sovereignty, Precaution and Equity)
+3. Climate Finance and Market Mechanisms
+4. Liability, Loss & Damage and Disaster Risk Management
+5. Energy Transitions and Just Transition
 
 **Beyond the UNFCCC**
 
-- 6\. Human Rights Framework: A Contribution to Adaptation and Mitigation
-- 7\. Climate Change related Litigation: International and Regional Dimensions
-- 8\. Climate Change-related Litigation: Domestic and Comparative Dimensions
-- 9\. Domestic Level Law and Policy Responses 1
-- 10\. Domestic Level Law and Policy Responses 2
+{: start="6"}
+6. Human Rights Framework: A Contribution to Adaptation and Mitigation
+7. Climate Change related Litigation: International and Regional Dimensions
+8. Climate Change-related Litigation: Domestic and Comparative Dimensions
+9. Domestic Level Law and Policy Responses 1
+10. Domestic Level Law and Policy Responses 2

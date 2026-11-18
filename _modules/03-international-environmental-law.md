@@ -17,25 +17,28 @@ The course seeks to introduce the general international legal and institutional 
 
 ## Indicative syllabus <span class="muted">(subject to change)</span>
 
-- 1\. Introduction: Context for International Environmental Law
+1. Introduction: Context for International Environmental Law
 
 **Evolution, Principles and Techniques**
 
-- 2\. Development of International Environmental Law and Environmental
-- 3\. Governance Sustainable Development & Sovereignty
-- 4\. Equity and Precautionary Principle – Environmental Aid
-- 5\. Transparency, Compliance & Dispute Settlement
+{: start="2"}
+2. Development of International Environmental Law and Environmental Governance
+3. Sustainable Development & Sovereignty
+4. Equity and Precautionary Principle – Environmental Aid
+5. Transparency, Compliance & Dispute Settlement
 
 **Environmental rights**
 
-- 6\. Procedural Environmental Rights
-- 7\. Human Right to (a clean) Environment
+{: start="6"}
+6. Procedural Environmental Rights
+7. Human Right to (a clean) Environment
 
 **Selected regimes and issues**
 
-- 8\. Nuclear Safety, State Responsibility & Civil Liability
-- 9\. Transboundary water conflict prevention and resolution
-- 10\. Plastics: Towards a global protection regime
+{: start="8"}
+8. Nuclear Safety, State Responsibility & Civil Liability
+9. Transboundary water conflict prevention and resolution
+10. Plastics: Towards a global protection regime
 
 ## Reference books
 

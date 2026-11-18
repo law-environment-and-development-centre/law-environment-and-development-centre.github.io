@@ -12,16 +12,15 @@ You can make every change below in your web browser on github.com. You don't nee
 |---|---|
 | An event (add, edit, remove) | `_events/` (one file per event) |
 | Team members, bios, photos | `_data/team.yml` |
-| Research projects | `_data/research.yml` |
+| Research projects (and which ones are featured on the homepage) | `_data/research.yml` |
 | Clinic projects | `_data/clinic_projects.yml` |
 | Clinic partner logos | `_data/partners.yml` |
 | Research themes (About page) | `_data/themes.yml` |
-| LLM/MA module pages | `_modules/` (one file per module) |
+| LLM module pages | `_modules/` (one file per module; `semester:` is the SOAS term, 1 or 2) |
 | PhD projects (ongoing ones link to SOAS profiles) | `_data/phd.yml` |
 | Members (academics, associates, PhD researchers, alumni) | `_data/members.yml` |
 | Events & collaborations | `_data/collaborations.yml` |
 | Advice, transnational education & impact | `research/advice-impact.md` |
-| LEAD Journal page | `lead-journal.md` |
 | Menu items | `_data/navigation.yml` |
 | Address, email, social links | `_config.yml` |
 | Page text | `about.md`, `degree-programmes.md`, `clinical-work.md`, `research.md`, `index.html` |
@@ -46,7 +45,9 @@ You can make every change below in your web browser on github.com. You don't nee
 
 4. Click **Commit changes**.
 
-The event appears under *Upcoming Events* on the homepage and the Events page. After its date passes, it moves to *Past events* on its own.
+The event appears under *Upcoming events* on the homepage (the next three) and on the Events page, soonest first. Once it has finished it moves to *Past events* on its own, newest first, and its Register button disappears. "Finished" means its end time, or two hours after the start if there's no `end:` line, or the end of the day if the event has a date but no time. All times are UK time.
+
+Leave old event files in place: they make up the past events archive.
 
 ## Editing a page or data file
 
@@ -54,7 +55,7 @@ Open the file, click the pencil icon, make your change, then click **Commit chan
 
 ## Images
 
-Member photos and LEAD Journal covers are stored in `assets/img/`. The other photos still load from the Wix media library (`static.wixstatic.com`). To host an image here instead:
+Member photos are stored in `assets/img/`. The other photos still load from the Wix media library (`static.wixstatic.com`). To host an image here instead:
 
 1. Upload it to `assets/img/` (**Add file → Upload files**).
 2. Replace the long Wix URL in the relevant file with `/assets/img/your-file.jpg`.

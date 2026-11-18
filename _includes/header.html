@@ -1,14 +1,15 @@
 <header class="site-header">
   <div class="site-header__inner">
-    <a class="site-logo" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-      <img src="{% include src.html src=site.logo %}" alt="SOAS University of London">
+    <a class="site-logo" href="{{ '/' | relative_url }}">
+      <img src="{% include src.html src=site.logo %}" alt="SOAS University of London – {{ site.title }} home">
     </a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
-    <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu"><span></span></label>
-    <nav class="site-nav" aria-label="Main">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle__bars" aria-hidden="true"></span><span class="visually-hidden">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
       <ul>
         {%- for item in site.data.navigation %}
-        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        <li><a href="{% include src.html src=item.url %}"{% if page.url == item.url %} aria-current="page"{% elsif item.url != "/" and page.url contains item.url %} aria-current="true"{% endif %}>{{ item.title }}</a></li>
         {%- endfor %}
       </ul>
     </nav>

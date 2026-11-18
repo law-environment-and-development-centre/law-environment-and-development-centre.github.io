@@ -41,7 +41,7 @@ logo: https://static.wixstatic.com/media/fe513e_be75e067b95f4a2bb94f2544a7178214
 collections:
   events:
     output: false
-  modules:          # LLM/MA module pages, one file each in _modules
+  modules:          # LLM module pages, one file each in _modules
     output: true
 
 defaults:

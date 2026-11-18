@@ -2,24 +2,30 @@
 # Doctoral researchers: only people with a SOAS profile; link to it.
 # Photos live in assets/img/members/
 
-- group: Academic
+- group: Academic members
   people:
   - name: Professor Philippe Cullet
     link: https://www.soas.ac.uk/about/philippe-cullet
     photo: /assets/img/members/philippe-cullet.jpg
-    role: Chair, Centre of Law, Environment and Development
+    role: Director
     interests: International and domestic law and policy concerning the environment, natural resources,
       water, sanitation, agriculture, sustainable development, climate change, health; social rights;
       intellectual property; India.
   - name: Dr Birsha Ohdedar
     link: https://www.soas.ac.uk/about/birsha-ohdedar
     photo: /assets/img/members/birsha-ohdedar.jpg
-    role: Deputy Director and Member
-    interests: Climate Change, Water, International Law, Human Rights
+    role: Deputy Director; Senior Lecturer in Climate Change and Environmental Law
+    interests: Climate change, water, international law, human rights.
+  - name: Dr Nate Palmer
+    link: https://www.soas.ac.uk/about/nate-palmer
+    photo: /assets/img/members/nate-palmer.jpg
+    role: Experiential Learning and Engagement Lead; Lecturer in International Environmental Law
+    interests: International environmental law, Rights of Nature and Harmony with Nature, water governance;
+      co-coordinator of the SOAS Environmental Justice Clinic.
   - name: Professor Martin W. Lau
     link: https://www.soas.ac.uk/about/martin-lau
     photo: /assets/img/members/martin-w-lau.jpg
-    role: Member
+    role: Professor of South Asian Law
     interests: Laws of South Asia; comparative environmental law, Islamic law.
 - group: Associates
   people:
@@ -28,7 +34,7 @@
     photo: /assets/img/members/lovleen-bhullar.jpg
     interests: International environmental law, Global environmental constitutionalism, Environmental,
       Water and Sanitation law and policy in India.
-  - name: Prof. Thoko Kaime
+  - name: Professor Thoko Kaime
     link: https://www.africanlegalstudies.uni-bayreuth.de/en/team/thoko/index.php
     photo: /assets/img/members/thoko-kaime.jpg
     interests: Children’s rights, international human rights, climate change, ecosystems services analysis,
@@ -49,18 +55,15 @@
   - name: Dr Zainab Lokhandwala
     link: https://www.essex.ac.uk/people/LOKHA84104/Zainab-Lokhandwala
     photo: /assets/img/members/zainab-lokhandwala.jpg
-  - name: Prof. Roopa Madhav
+  - name: Professor Roopa Madhav
     link: https://nludelhi.ac.in/faculty/dr-roopa-madhav/
     photo: /assets/img/members/roopa-madhav.jpg
   - name: Dr Hu Yuan Qiong
-    link: https://www.soas.ac.uk/about/hu-yuan-qiong
+    # SOAS profile (soas.ac.uk/about/hu-yuan-qiong) returned "page not found" in Nov 2026; add a new link if there is one
     photo: /assets/img/members/hu-yuan-qiong.jpg
-  - name: Prof. David Takacs
-    link: https://www.uchastings.edu/people/david-takacs/
+  - name: Professor David Takacs
+    link: https://www.uclawsf.edu/people/david-takacs/
     photo: /assets/img/members/david-takacs.jpg
-  - name: Dr Nate Palmer
-    link: https://www.soas.ac.uk/about/nate-palmer
-    photo: /assets/img/members/nate-palmer.jpg
   - name: Dr Rahul Yaduka
     link: https://www.watcon.org/team
     photo: /assets/img/members/rahul-yaduka.jpg
@@ -163,26 +166,6 @@
       handle contractual negotiations around a complex development agreement. If I was to say one thing
       about the LLM at SOAS, it is that it grounded me throughly in legal thinking and legal processes.
       The international reach of the course enabled me to easily transfer these skills to other jurisdictions.
-  - name: Mr Marc Jourdan
-    role: Senior Manager, Position Green
-    photo: /assets/img/members/marc-jourdan.jpg
-    text: 'Marc Jourdan is the UN Representative and Environmental Programs Coordinator for the Global
-      Foundation for Democracy and Development (GFDD). Marc is responsible for managing the foundation’s
-      programs at the United Nations, including attending the public sessions of inter-governmental meetings
-      and conferences, organizing side events and publication briefings, making oral interventions and
-      circulating written material on matters related to the agenda of UN meetings as they relate to the
-      Mission of the foundation and the sustainable development of the Dominican Republic. In his additional
-      capacity as Environmental Programs Coordinator, Marc helps to provide content to the environmental
-      programs of the foundation, including its grassroots initiatives ReCrearte and Eco-Huertos which
-      empower individuals and communities through practical workshops that teach the principles of sustainable
-      development.
-
-
-      Prior to joining GFDD in 2013, Marc worked as a policy advisor on climate change issues for the
-      international nonprofit The Climate Group as well as the Permanent Mission of the Maldives to the
-      United Nations. Previously, he worked as a corporate lawyer for 4 years in the United Kingdom. Marc
-      has an LLB in Law and French from the University of Surrey and an LLM in Environmental Law from
-      the School of Oriental and African Studies in London.'
   - name: Mr Sebastien Korwin
     role: Co-Founder, Environmental Legal and Policy Consultant, Takin Consulting
     photo: /assets/img/members/sebastien-korwin.jpg
@@ -195,7 +178,7 @@
       and policy support to NGOs, the production of in-depth thematic publications and policy briefs,
       to the design and implementation of governance reform strategies for governments.
   - name: Ms Natalie Danielle McCauley
-    role: Acting Assistant Professor of Lawyering,New York University School of Law
+    role: Acting Assistant Professor of Lawyering, New York University School of Law
     photo: /assets/img/members/natalie-danielle-mccauley.jpg
     text: After my introduction to the complexities of international environmental law at SOAS, I was
       inspired to not just learn about the law but be an active part in changing it. The impassioned and

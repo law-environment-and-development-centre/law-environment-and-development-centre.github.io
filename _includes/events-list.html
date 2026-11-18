@@ -1,0 +1,52 @@
+{%- comment -%}
+  Renders a list of events from the _events folder, sorted and split by date.
+  Parameters:
+    which  = "upcoming" (soonest first) or "past" (most recent first)
+    limit  = optional maximum number of upcoming events to show (e.g. on the homepage)
+    full   = true to show the description text under each event
+    id     = optional id for the list (the upcoming list moves events into the list with this id)
+    past_target = id of the past list on the same page, if any
+    empty  = message to show when there are no events in this list
+
+  Splitting happens twice: here when the site is built (so the page is right even
+  without JavaScript), and again in the browser by assets/js/events.js, so an event
+  moves to "past" as soon as it ends even if nobody has rebuilt the site since.
+  All times are UK time (timezone in _config.yml).
+
+  An event counts as finished at its end time ("end:" in the event file), or two
+  hours after it starts if no end time is given, or at the end of the day for
+  events with a date but no time.
+{%- endcomment -%}
+{%- assign now = site.time | date: "%s" | plus: 0 -%}
+{%- assign sorted = site.events | sort: "date" -%}
+{%- if include.which == "past" -%}{%- assign sorted = sorted | reverse -%}{%- endif -%}
+{%- assign shown = 0 -%}
+<div class="events{% if include.which == 'past' %} events--past{% endif %}" data-events="{{ include.which }}"{% if include.id %} id="{{ include.id }}"{% endif %}{% if include.limit %} data-limit="{{ include.limit }}"{% endif %}{% if include.past_target %} data-past-target="#{{ include.past_target }}"{% endif %}>
+  {%- for e in sorted -%}
+    {%- assign day = e.date | date: "%Y-%m-%d" -%}
+    {%- assign hm = e.date | date: "%H:%M" -%}
+    {%- assign start_ts = e.date | date: "%s" | plus: 0 -%}
+    {%- if e.end -%}
+      {%- assign end_ts = day | append: " " | append: e.end | date: "%s" | plus: 0 -%}
+    {%- elsif hm == "00:00" -%}
+      {%- assign end_ts = day | append: " 23:59:59" | date: "%s" | plus: 0 -%}
+    {%- else -%}
+      {%- assign end_ts = start_ts | plus: 7200 -%}
+    {%- endif -%}
+    {%- if include.which == "past" -%}
+      {%- if end_ts < now -%}
+        {%- assign shown = shown | plus: 1 -%}
+        {% include event-card.html event=e full=include.full start=start_ts end=end_ts past=true %}
+      {%- endif -%}
+    {%- else -%}
+      {%- if end_ts >= now -%}
+        {%- assign shown = shown | plus: 1 -%}
+        {%- if include.limit and shown > include.limit -%}{%- assign over = true -%}{%- else -%}{%- assign over = false -%}{%- endif -%}
+        {% include event-card.html event=e full=include.full start=start_ts end=end_ts hidden=over %}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor %}
+  {%- if include.empty %}
+  <p class="events__empty"{% if shown > 0 %} hidden{% endif %}>{{ include.empty }}</p>
+  {%- endif %}
+</div>

@@ -13,24 +13,24 @@ This module examines international, regional and national legal and institutiona
 
 ## Indicative syllabus <span class="muted">(subject to change)</span>
 
-**Semester 1**
-
-- Week 1. Context, Sustainable Development and Inequality
-- Week 2. Framework for the Use and Conservation of Natural Resources – Basic Principles
-- Week 3. Evolving Governance and Role of International Financial Institutions
+1. Context, Sustainable Development and Inequality
+2. Framework for the Use and Conservation of Natural Resources – Basic Principles
+3. Evolving Governance and Role of International Financial Institutions
 
 **Rights, Participation and Access to Justice**
 
-- Week 4. Human Rights and Natural Resources
-- Week 5. Property Rights over Natural Resources
-- Week 6. Participatory Natural Resources Management
-- Week 7. Access to Justice and Natural Resources
+{: start="4"}
+4. Human Rights and Natural Resources
+5. Property Rights over Natural Resources
+6. Participatory Natural Resources Management
+7. Access to Justice and Natural Resources
 
 **Land**
 
-- Week 8. Land Rights, Land Reform and Land Acquisition
-- Week 9. Large Scale Land Acquisitions and Beyond
-- Week 10. Land Rights and Indigenous Peoples
+{: start="8"}
+8. Land Rights, Land Reform and Land Acquisition
+9. Large Scale Land Acquisitions and Beyond
+10. Land Rights and Indigenous Peoples
 
 ## Reference books
 

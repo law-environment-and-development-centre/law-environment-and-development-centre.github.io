@@ -1,7 +1,7 @@
 <div class="team-strip">
   {%- for p in site.data.team %}{% if p.home %}
   <figure>
-    <img src="{% include src.html src=p.photo %}" alt="{{ p.name }}" loading="lazy">
+    <img src="{% include src.html src=p.photo %}" alt="" loading="lazy">
     <figcaption>{{ p.short | default: p.name }}</figcaption>
   </figure>
   {%- endif %}{% endfor %}

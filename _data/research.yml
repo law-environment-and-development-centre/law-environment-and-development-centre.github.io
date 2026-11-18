@@ -1,12 +1,14 @@
 # Research projects on the Research page (newest first).
 # colour: sea-blue, crimson, dark-blue or sky  (SOAS brand colours)
 # link: SOAS project page (blank hides the button); website: optional project site
+# featured: true also shows the project on the homepage (keep it to two or three)
 
 - title: 'Addressing the multi-scalar dimensions of sectoral water conflicts: Lessons from South Asia (WATCON)'
   years: 2025 – 2030
   colour: sea-blue
   link: https://www.soas.ac.uk/research/addressing-multi-scalar-dimensions-sectoral-water-conflicts-lessons-south-asia-watcon-2025
-  website: http://www.watcon.org
+  website: https://www.watcon.org
+  featured: true
 - title: The British Council Industry Academia Collaborative Grant
   years: '2023'
   colour: dark-blue
@@ -15,10 +17,12 @@
   years: 2022 – 2025
   colour: crimson
   link: https://www.soas.ac.uk/research/conflicts-over-access-water-and-land-evolving-dimensions-2022-2025
+  featured: true
 - title: Fostering ecocentric community-led river restoration and conservation in the Ganga Basin
   years: 2022 – 2023
   colour: dark-blue
   link: https://www.soas.ac.uk/research/fostering-ecocentric-community-led-river-restoration-and-conservation-ganga-basin-2022
+  featured: true
 - title: Food security and the governance of local knowledge in India and Indonesia
   years: 2018 – 2023
   colour: sky

@@ -1,17 +1,19 @@
+{%- comment -%} One event. Used by events-list.html; start/end are Unix timestamps. {%- endcomment -%}
 {%- assign e = include.event -%}
-<article class="event" data-date="{{ e.date | date: '%Y-%m-%d' }}">
+{%- assign hm = e.date | date: "%H:%M" -%}
+<article class="event" data-start="{{ include.start }}" data-end="{{ include.end }}"{% if include.hidden %} hidden{% endif %}>
   <div class="event__date" aria-hidden="true">
-    <span class="event__day">{{ e.date | date: "%d" }}</span>
+    <span class="event__day">{{ e.date | date: "%-d" }}</span>
     <span class="event__month">{{ e.date | date: "%b %Y" }}</span>
   </div>
   <div class="event__body">
     <h3>{{ e.title }}</h3>
     <p class="event__meta">
-      {% assign hm = e.date | date: "%H:%M" %}{{ e.date | date: "%-d %B %Y" }}{% if hm != "00:00" %}, {{ hm }}{% if e.end %} – {{ e.end }}{% endif %}{% endif %}
+      <time datetime="{{ e.date | date: '%Y-%m-%dT%H:%M:%S%:z' }}">{{ e.date | date: "%A %-d %B %Y" }}{% if hm != "00:00" %}, {{ hm }}{% if e.end %}–{{ e.end }}{% endif %}{% endif %}</time>
       {% if e.location %}<br>{{ e.location }}{% endif %}
     </p>
     {% if include.full and e.content != "" %}<div class="event__text">{{ e.content | markdownify }}</div>{% endif %}
-    {% if e.register %}<a class="btn btn--small event__register" href="{{ e.register }}">Register</a>{% endif %}
+    {% if e.register and include.past != true %}<a class="btn btn--small event__register" href="{{ e.register }}">Register<span class="visually-hidden"> for {{ e.title }}</span></a>{% endif %}
   </div>
-  {% if e.image and include.full %}<img class="event__img" src="{% include src.html src=e.image %}" alt="">{% endif %}
+  {% if e.image and include.full %}<img class="event__img" src="{% include src.html src=e.image %}" alt="{{ e.image_alt | default: '' }}" loading="lazy">{% endif %}
 </article>

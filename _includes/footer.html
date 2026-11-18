@@ -13,14 +13,13 @@
     <nav aria-label="Footer">
       <ul>
         {%- for item in site.data.navigation %}
-        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        <li><a href="{% include src.html src=item.url %}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
         {%- endfor %}
       </ul>
     </nav>
     <div class="site-footer__links">
       <strong>Links</strong>
       <a href="https://www.soas.ac.uk/law/">SOAS College of Law</a>
-      <a href="https://lead-journal.org/">LEAD Journal</a>
       {% include social.html %}
     </div>
   </div>

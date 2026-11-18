@@ -13,11 +13,11 @@ This module examines ‘water justice’ in the global South from a combined Law
 
 ### Content of the module
 
-Rights: The first part of the module introduces the notion of water justice and elaborates water law by looking at water rights and the human right to water. It distinguishes between sovereign rights, individual use rights and common heritage. It elaborates on the globally adopted ‘human right to water, and discusses the ‘right to sanitation’ in that context. Lastly, recent ideas on ‘river rights’ are discussed.
+**Rights:** The first part of the module introduces the notion of water justice and elaborates water law by looking at water rights and the human right to water. It distinguishes between sovereign rights, individual use rights and common heritage. It elaborates on the globally adopted ‘human right to water, and discusses the ‘right to sanitation’ in that context. Lastly, recent ideas on ‘river rights’ are discussed.
 
-Access: The second part of the course focuses on access relations, or ‘distributive justice’, in different domains of water use, management and governance (irrigation, watershed management) and from different angles (gender relations, depoliticization).
+**Access:** The second part of the course focuses on access relations, or ‘distributive justice’, in different domains of water use, management and governance (irrigation, watershed management) and from different angles (gender relations, depoliticisation).
 
-Movements: The third part of the module focuses on social movements pursuing ‘water justice’, including social movements opposing large dam building and movements opposing the privatisation of urban water privatisation. The module is concluded by revisiting the notion of water justice.
+**Movements:** The third part of the module focuses on social movements pursuing ‘water justice’, including social movements opposing large dam building and movements opposing the privatisation of urban water privatisation. The module is concluded by revisiting the notion of water justice.
 
 ### Learning outcomes
 
@@ -27,25 +27,28 @@ Students will acquire knowledge of basic concepts and principles underlying the 
 
 ## Indicative syllabus <span class="muted">(subject to change)</span>
 
-- 1\. Governing water in the 2020s: Framing concepts
+1. Governing water in the 2020s: Framing concepts
 
 **I: Rights**
 
-- 2\. Water rights: sovereign rights and public trust doctrine
-- 3\. Individual use rights and land
-- 4\. Human right to water
+{: start="2"}
+2. Water rights: sovereign rights and public trust doctrine
+3. Individual use rights and land
+4. Human right to water
 
 **II: Access**
 
-- 5\. Access and right to sanitation
-- 6\. Privatisation and remunicipalisation
-- 7\. Participation and depoliticization
+{: start="5"}
+5. Access and right to sanitation
+6. Privatisation and remunicipalisation
+7. Participation and depoliticisation
 
 **III: Movements**
 
-- 8\. Social movements around water
-- 9\. Groundwater rights and conflicts
-- 10\. International water governance
+{: start="8"}
+8. Social movements around water
+9. Groundwater rights and conflicts
+10. International water governance
 
 ## Reference books
 

@@ -2,7 +2,7 @@
 title: "Local Perspectives on Water Governance: Case Studies from Bangladesh, India and Indonesia"
 date: 2026-11-19 17:00
 location: "Room S209, Paul Webley Wing, SOAS"
-register: https://lnkd.in/ebKTbAYW
+register: https://www.eventbrite.co.uk/e/2004664226666
 ---
 LEDC Seminar Series. Three SOAS PhD candidates explore how water is understood, accessed and governed in different local settings, with attention to gender, property rights, customary law and community perspectives.
 

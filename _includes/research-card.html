@@ -1,0 +1,9 @@
+{%- assign r = include.r -%}
+<article class="research__card research__card--{{ r.colour | default: 'sea-blue' }}">
+  <h3>{{ r.title }}</h3>
+  {% if r.years != "" %}<p class="research__years">{{ r.years }}</p>{% endif %}
+  <p class="research__links">
+    {% if r.link != "" %}<a class="btn btn--outline-current" href="{{ r.link }}">Read more<span class="visually-hidden"> about {{ r.title }}</span></a>{% endif %}
+    {% if r.website %}<a class="btn btn--outline-current" href="{{ r.website }}">Project website<span class="visually-hidden"> for {{ r.title }}</span></a>{% endif %}
+  </p>
+</article>

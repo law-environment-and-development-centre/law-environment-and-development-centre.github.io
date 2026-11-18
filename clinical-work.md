@@ -24,7 +24,7 @@ Since 2022, the SOAS Environmental Justice Clinic has partnered with NGOs, chari
 <section class="wrap split">
 <div class="split__main panel panel--sky" markdown="1">
 
-Working closely with partner organisations such as the Environmental Law Foundation (ELF), ClientEarth, and The Wildlife Trusts, students have contributed to a wide variety of initiatives.
+Working closely with partner organisations such as the Environmental Law Foundation (ELF), ClientEarth, The Wildlife Trusts and Lawyers for Nature, students have contributed to a wide variety of initiatives.
 
 These have included assisting in policy campaign work to urge UK local authorities to act on their climate emergency declarations, and supporting public interest cases that aim to hold decision-makers accountable for environmental and social harms.
 
@@ -60,11 +60,25 @@ Our clinical legal education programme is designed to foster inclusion. By promo
 
 <section class="band band--stone">
   <div class="wrap">
-    <h2 class="band__title band__title--crimson">Recent Projects</h2>
+    <h2 class="band__title band__title--crimson">Recent projects</h2>
     <div class="projects">
       {%- for p in site.data.clinic_projects %}
       {% include project-card.html project=p %}
       {%- endfor %}
     </div>
   </div>
+</section>
+
+<section class="wrap outputs" id="outputs">
+<div class="prose" markdown="1">
+
+## Reports and outputs
+
+- [Environmental Justice Clinic Report 2025/26](https://drive.google.com/file/d/185EyBZyWcmFBf1v1_kxfKBYn-2oS9PIX/view): a year of five projects and the legal advice clinic
+- [Representing Rights of Nature: A Survey of Representative Forms](https://www.soas.ac.uk/about/news/soas-environmental-law-clinic-partners-lawyers-nature-rights-nature-representative-model), with Lawyers for Nature
+- [Rights of Nature and the River Ouse](https://www.soas.ac.uk/about/news/soas-students-champion-rights-nature-pro-bono-project-river-ouse): two reports on the River Ouse in Sussex
+- [Response to the International Criminal Court's Draft Policy on Environmental Crimes](https://www.soas.ac.uk/about/news/soas-environmental-law-clinic-calls-icc-recognise-environment-legal-victim)
+- [Local level climate action](https://www.soas.ac.uk/about/news/students-study-impact-councils-climate-emergency-declarations): research on councils' climate emergency declarations, with the Environmental Law Foundation
+
+</div>
 </section>

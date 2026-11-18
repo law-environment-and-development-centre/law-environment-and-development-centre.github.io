@@ -34,11 +34,11 @@ Prospective PhD candidates are welcome to contact [Professor Philippe Cullet](ht
 </section>
 
 <section class="wrap" id="team">
-  <h2 class="band__title">Meet the Team</h2>
+  <h2 class="band__title">Meet the team</h2>
   <div class="people">
     {%- for p in site.data.team %}
     <article class="person">
-      <img src="{% include src.html src=p.photo %}" alt="{{ p.name }}" loading="lazy">
+      <img src="{% include src.html src=p.photo %}" alt="" loading="lazy">
       <div class="person__text">
         <h3>{{ p.name }}</h3>
         {{ p.bio | markdownify }}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Latest Research
+title: Research
 permalink: /research/
 ---
 
@@ -12,14 +12,7 @@ permalink: /research/
   <h2 class="band__title">Research projects</h2>
   <div class="research">
     {%- for r in site.data.research %}
-    <article class="research__card research__card--{{ r.colour | default: 'sea-blue' }}">
-      <h2>{{ r.title }}</h2>
-      {% if r.years != "" %}<p class="research__years">{{ r.years }}</p>{% endif %}
-      <p class="research__links">
-        {% if r.link != "" %}<a class="btn btn--outline-current" href="{{ r.link }}">Read more</a>{% endif %}
-        {% if r.website %}<a class="btn btn--outline-current" href="{{ r.website }}">Project website</a>{% endif %}
-      </p>
-    </article>
+    {% include research-card.html r=r %}
     {%- endfor %}
   </div>
 </section>

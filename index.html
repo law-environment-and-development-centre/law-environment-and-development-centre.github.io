@@ -10,46 +10,62 @@ permalink: /
   </div>
 </section>
 
-<section class="band band--dark">
-  <div class="wrap">
-    <div class="callout callout--crimson">
-      <h2>Explore LEDC Courses &amp; Degree Programmes</h2>
-      <p>Offerings at the undergraduate and postgraduate level</p>
-      <a class="btn btn--outline-light" href="{{ '/degree-programmes/' | relative_url }}">More info</a>
-    </div>
+<section class="wrap home-intro">
+  <p class="lead">The Law, Environment and Development Centre (LEDC), based in the College of Law at SOAS University of London, investigates the dynamic relationships between law, environment and development. Its research focuses in particular on topics of relevance to the Global South and to North–South relations, and its teaching combines core subjects in environmental law with a critical inquiry into the theory and practice of the field.</p>
+  <div class="link-cards">
+    <a class="link-card" href="{{ '/research/' | relative_url }}"><strong>Research</strong><span>Water, land, forests, climate change, biodiversity and rights of nature</span></a>
+    <a class="link-card" href="{{ '/degree-programmes/' | relative_url }}"><strong>Teaching</strong><span>The LLM in Environmental Law and Sustainable Development and related programmes</span></a>
+    <a class="link-card" href="{{ '/research/advice-impact/' | relative_url }}"><strong>Policy and advice</strong><span>Advice to governments, transnational education and expert networks</span></a>
+    <a class="link-card" href="{{ '/clinical-work/' | relative_url }}"><strong>Environmental Justice Clinic</strong><span>Students working on public interest legal and policy projects with partner organisations</span></a>
   </div>
 </section>
 
-<section class="band band--sea-blue">
+<section class="band band--light">
   <div class="wrap">
-    <h2 class="band__title">Meet the Team</h2>
-    {% include team-strip.html %}
-    <p class="center"><a class="btn btn--outline-light" href="{{ '/about/#team' | relative_url }}">Learn about the academic staff who work at and support the centre</a></p>
+    <h2 class="band__title">Featured research</h2>
+    <div class="research">
+      {%- for r in site.data.research %}{% if r.featured %}
+      {% include research-card.html r=r %}
+      {%- endif %}{% endfor %}
+    </div>
+    <p class="home-more"><a class="btn btn--dark" href="{{ '/research/' | relative_url }}">All research projects</a> <a class="btn btn--outline" href="{{ '/research/phd/' | relative_url }}">PhD research</a> <a class="btn btn--outline" href="https://lead-journal.org/">LEAD Journal</a></p>
   </div>
 </section>
 
 <section class="band band--stone">
   <div class="wrap">
-    <h2 class="band__title">Upcoming Events</h2>
-    <div class="events" data-events="upcoming" data-limit="3">
-      {%- assign events = site.events | sort: "date" -%}
-      {%- for e in events %}
-      {% include event-card.html event=e %}
-      {%- endfor %}
-      <p class="events__empty" hidden>No events are scheduled right now. Follow the link below for past events.</p>
-    </div>
+    <h2 class="band__title">Upcoming events</h2>
+    {% include events-list.html which="upcoming" limit=3 empty="No events are scheduled right now. Past seminars and talks are listed on the Events page." %}
     <p><a class="btn btn--dark" href="{{ '/events/' | relative_url }}">All events</a></p>
   </div>
 </section>
 
 <section class="band band--dark-blue">
   <div class="wrap">
-    <h2 class="band__title">Latest from our Clinic</h2>
+    <h2 class="band__title">From the Environmental Justice Clinic</h2>
     <div class="projects projects--compact">
       {%- for p in site.data.clinic_projects limit: 3 %}
       {% include project-card.html project=p short=true %}
       {%- endfor %}
     </div>
-    <p class="center"><a class="btn btn--outline-light" href="{{ '/clinical-work/' | relative_url }}">Read more</a></p>
+    <p class="center"><a class="btn btn--outline-light" href="{{ '/clinical-work/' | relative_url }}">About the Clinic</a> <a class="btn btn--outline-light" href="{{ '/clinical-work/' | relative_url }}#outputs">Clinic reports</a></p>
+  </div>
+</section>
+
+<section class="band band--dark">
+  <div class="wrap">
+    <div class="callout callout--crimson">
+      <h2>Explore LEDC courses and degree programmes</h2>
+      <p>Offerings at undergraduate and postgraduate level</p>
+      <a class="btn btn--outline-light" href="{{ '/degree-programmes/' | relative_url }}">Degree programmes</a>
+    </div>
+  </div>
+</section>
+
+<section class="band band--sea-blue">
+  <div class="wrap">
+    <h2 class="band__title">Meet the team</h2>
+    {% include team-strip.html %}
+    <p class="center"><a class="btn btn--outline-light" href="{{ '/about/#team' | relative_url }}">Learn about the academic staff who work at and support the centre</a></p>
   </div>
 </section>

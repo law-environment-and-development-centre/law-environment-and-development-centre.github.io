@@ -2,9 +2,9 @@
 <article class="phd-entry">
   <h3>{{ p.title }}</h3>
   <p class="phd-entry__meta">{% if p.link %}<a href="{{ p.link }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.status != "" and p.status != "ongoing project" %} · {{ p.status }}{% endif %}</p>
-  {% if p.abstract != "" %}
+  {% if p.abstract and p.abstract != "" %}
   <details>
-    <summary>Read abstract</summary>
+    <summary>Read abstract<span class="visually-hidden">: {{ p.title }}</span></summary>
     {{ p.abstract | markdownify }}
   </details>
   {% endif %}
