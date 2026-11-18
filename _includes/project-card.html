@@ -1,0 +1,8 @@
+{%- assign p = include.project -%}
+<article class="project">
+  <img src="{% include src.html src=p.image %}" alt="" loading="lazy">
+  <h3>{{ p.title }}</h3>
+  {% if include.short != true %}<p>{{ p.text }}</p>{% endif %}
+  {% if p.link != "" %}<a class="btn btn--outline" href="{{ p.link }}">Read more about the project</a>
+  {% elsif include.short != true %}<span class="project__soon">More information to come</span>{% endif %}
+</article>

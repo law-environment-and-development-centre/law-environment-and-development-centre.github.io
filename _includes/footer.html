@@ -1,0 +1,24 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-logo" href="{{ '/' | relative_url }}">
+      <img src="{% include src.html src=site.logo %}" alt="SOAS University of London">
+    </a>
+    <address>
+      <strong>{{ site.title }}</strong><br>
+      {{ site.contact.institution }}<br>
+      {% for line in site.contact.address %}{{ line }}<br>{% endfor %}
+      <span class="site-footer__gap"></span>
+      <a href="tel:{{ site.contact.phone | remove: ' ' | remove: '(0)' }}">{{ site.contact.phone }}</a><br>
+      <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+    </address>
+    <nav aria-label="Footer">
+      <ul>
+        {%- for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    {% include social.html %}
+  </div>
+  <p class="site-footer__copy">&copy; {{ site.time | date: "%Y" }} SOAS LEDC</p>
+</footer>

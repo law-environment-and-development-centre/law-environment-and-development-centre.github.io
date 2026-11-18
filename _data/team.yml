@@ -1,0 +1,52 @@
+# The people shown on the About page and the homepage.
+# photo: a full URL, or a file in assets/img (e.g. /assets/img/nate.jpg)
+# profile: link for the "Read more" button (leave blank to hide the button)
+# home: true shows the person in the homepage "Meet the Team" strip
+
+- name: Professor Philippe Cullet
+  first: Philippe
+  short: Prof. Philippe Cullet
+  photo: https://static.wixstatic.com/media/fe513e_07a7e087e2664fbdbd54cce276d6671f~mv2.jpg/v1/fit/w_800,h_800,q_85,enc_auto/fe513e_07a7e087e2664fbdbd54cce276d6671f~mv2.jpg
+  home: true
+  profile: ""
+  bio: >-
+    Philippe convenes the Law, Environment and Development Centre (LEDC), and
+    co-convenes the [LLM in Environmental Law and Sustainable Development](https://www.soas.ac.uk/study/find-course/llm-environmental-law-and-sustainable-development),
+    the joint SOAS-NLUD [LLM/MA in Environmental Justice](https://www.soas.ac.uk/study/find-course/nlud-soas-joint-llm/ma-environmental-justice-south-asia)
+    and the [MRes in Law](https://www.soas.ac.uk/study/find-course/mres-law). He is
+    also the Editor of the Law, Environment and Development Journal
+    ([LEAD Journal](https://www.lead-journal.org/)), a peer-reviewed academic
+    journal hosted by the LEDC.
+
+- name: Dr Birsha Ohdedar
+  first: Birsha
+  short: Dr Birsha Ohdedar
+  photo: https://static.wixstatic.com/media/e23131_232a5591841e4619a8425c4d1f2af872~mv2.jpg/v1/fit/w_800,h_800,q_85,enc_auto/e23131_232a5591841e4619a8425c4d1f2af872~mv2.jpg
+  home: true
+  profile: ""
+  bio: >-
+    Birsha is the deputy director of the Law, Environment and Development Centre
+    (LEDC), and co-convenes the [LLM in Environmental Law and Sustainable Development](https://www.soas.ac.uk/study/find-course/llm-environmental-law-and-sustainable-development).
+    He is a senior lecturer in Environmental and Climate Change law.
+
+- name: Dr Nate Palmer
+  first: Nate
+  short: Dr Nate Palmer
+  photo: https://static.wixstatic.com/media/e23131_f0bffd5976784d25a6105979b718d0af~mv2.jpg/v1/fit/w_800,h_800,q_85,enc_auto/e23131_f0bffd5976784d25a6105979b718d0af~mv2.jpg
+  home: true
+  profile: https://drnatepalmer.com
+  bio: >-
+    Nate is the Experimental Learning and Engagement lead at the LEDC, and is a
+    lecturer in environmental law at SOAS, convening modules including
+    International Environmental Law and Alternatives to Sustainable Development:
+    Rights of Nature and Harmony with Nature. Nate is also an expert member at
+    the UN Harmony with Nature Programme and serves as an assistant editor at the
+    [LEAD Journal](https://www.lead-journal.org/).
+
+- name: Professor Martin W Lau
+  first: Martin
+  short: Prof. Martin W Lau
+  photo: https://static.wixstatic.com/media/e23131_4813c8eba2a84c4a9c61e5ddc790c87a~mv2.jpg/v1/fit/w_800,h_800,q_85,enc_auto/e23131_4813c8eba2a84c4a9c61e5ddc790c87a~mv2.jpg
+  home: false
+  profile: ""
+  bio: ""

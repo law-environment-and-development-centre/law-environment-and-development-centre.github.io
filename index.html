@@ -1,0 +1,55 @@
+---
+layout: default
+title: Welcome
+permalink: /
+---
+<section class="hero">
+  <img class="hero__img" src="{% include src.html src=site.data.images.home_hero %}" alt="Living root bridge and waterfall at Nongriat, Meghalaya">
+  <div class="hero__box">
+    <h1>Law, Environment and Development Centre</h1>
+  </div>
+</section>
+
+<section class="band band--dark">
+  <div class="wrap">
+    <div class="callout callout--magenta">
+      <h2>Explore LEDC Courses &amp; Degree Programmes</h2>
+      <p>Offerings at the undergraduate and postgraduate level</p>
+      <a class="btn btn--outline-light" href="{{ '/degree-programmes/' | relative_url }}">More info</a>
+    </div>
+  </div>
+</section>
+
+<section class="band band--teal">
+  <div class="wrap">
+    <h2 class="band__title">Meet the Team</h2>
+    {% include team-strip.html %}
+    <p class="center"><a class="btn btn--outline-light" href="{{ '/about/#team' | relative_url }}">Learn about the academic staff who work at and support the centre</a></p>
+  </div>
+</section>
+
+<section class="band band--yellow">
+  <div class="wrap">
+    <h2 class="band__title">Upcoming Events</h2>
+    <div class="events" data-events="upcoming" data-limit="3">
+      {%- assign events = site.events | sort: "date" -%}
+      {%- for e in events %}
+      {% include event-card.html event=e %}
+      {%- endfor %}
+      <p class="events__empty" hidden>No events are scheduled right now. Follow the link below for past events.</p>
+    </div>
+    <p><a class="btn btn--dark" href="{{ '/events/' | relative_url }}">All events</a></p>
+  </div>
+</section>
+
+<section class="band band--dark">
+  <div class="wrap">
+    <h2 class="band__title">Latest from our Clinic</h2>
+    <div class="projects projects--compact">
+      {%- for p in site.data.clinic_projects limit: 3 %}
+      {% include project-card.html project=p short=true %}
+      {%- endfor %}
+    </div>
+    <p class="center"><a class="btn btn--outline-light" href="{{ '/clinical-work/' | relative_url }}">Read more</a></p>
+  </div>
+</section>

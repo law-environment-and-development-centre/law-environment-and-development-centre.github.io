@@ -1,0 +1,13 @@
+# Main menu (header and footer). Order here = order on the site.
+- title: Welcome
+  url: /
+- title: About
+  url: /about/
+- title: Degree Programmes
+  url: /degree-programmes/
+- title: Clinical Work
+  url: /clinical-work/
+- title: Research
+  url: /research/
+- title: Events
+  url: /events/

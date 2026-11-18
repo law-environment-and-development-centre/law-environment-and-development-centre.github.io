@@ -1,0 +1,51 @@
+# ------------------------------------------------------------------
+# LEDC website settings
+# Edit the values below and commit; the site rebuilds in about a minute.
+# ------------------------------------------------------------------
+
+title: Law, Environment and Development Centre
+short_title: LEDC
+description: >-
+  The Law, Environment and Development Centre (LEDC) at SOAS University of
+  London investigates the dynamic relationships between the fields of law,
+  environment and development.
+
+# While the site lives at drnatepalmer.com/ledc keep baseurl as "/ledc".
+# When ledc.info is pointed here, change baseurl to "" and add a CNAME file
+# containing ledc.info (see README).
+url: "https://drnatepalmer.com"
+baseurl: "/ledc"
+timezone: Europe/London
+
+# Contact details (used in the footer and on the Contact block)
+contact:
+  institution: SOAS University of London
+  address:
+    - 10 Thornhaugh Street
+    - Russell Square
+    - London
+    - WC1H 0XG
+  phone: "+44 (0)20 7898 4651"
+  email: ledc@soas.ac.uk
+
+# Social links: paste a full URL to show the icon, leave blank to hide it
+social:
+  linkedin: ""
+  instagram: ""
+  facebook: ""
+
+# SOAS logo shown in the header and footer
+logo: https://static.wixstatic.com/media/fe513e_be75e067b95f4a2bb94f2544a7178214~mv2.png
+
+# Events are kept as one file each in the _events folder
+collections:
+  events:
+    output: false
+
+markdown: kramdown
+kramdown:
+  parse_block_html: false
+
+exclude:
+  - README.md
+  - .gitignore

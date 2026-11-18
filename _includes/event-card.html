@@ -1,0 +1,17 @@
+{%- assign e = include.event -%}
+<article class="event" data-date="{{ e.date | date: '%Y-%m-%d' }}">
+  <div class="event__date" aria-hidden="true">
+    <span class="event__day">{{ e.date | date: "%d" }}</span>
+    <span class="event__month">{{ e.date | date: "%b %Y" }}</span>
+  </div>
+  <div class="event__body">
+    <h3>{{ e.title }}</h3>
+    <p class="event__meta">
+      {{ e.date | date: "%-d %B %Y, %H:%M" }}{% if e.end %} – {{ e.end }}{% endif %}
+      {% if e.location %}<br>{{ e.location }}{% endif %}
+    </p>
+    {% if include.full and e.content != "" %}<div class="event__text">{{ e.content }}</div>{% endif %}
+    {% if e.register %}<a class="btn btn--small event__register" href="{{ e.register }}">Register</a>{% endif %}
+  </div>
+  {% if e.image and include.full %}<img class="event__img" src="{% include src.html src=e.image %}" alt="">{% endif %}
+</article>
