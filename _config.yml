@@ -15,7 +15,7 @@ url: "https://law-environment-and-development-centre.github.io"
 baseurl: ""
 timezone: Europe/London
 
-# Contact details (used in the footer and on the Contact block)
+# Contact details (used in the footer)
 contact:
   institution: SOAS University of London
   address:
@@ -23,7 +23,6 @@ contact:
     - Russell Square
     - London
     - WC1H 0XG
-  phone: "+44 (0)20 7898 4651"
   email: ledc@soas.ac.uk
 
 # Social links: paste a full URL to show the icon, leave blank to hide it

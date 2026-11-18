@@ -17,7 +17,7 @@ You can make every change below in your web browser on github.com. You don't nee
 | Clinic partner logos | `_data/partners.yml` |
 | Research themes (About page) | `_data/themes.yml` |
 | Menu items | `_data/navigation.yml` |
-| Address, phone, email, social links | `_config.yml` |
+| Address, email, social links | `_config.yml` |
 | Page text | `about.md`, `degree-programmes.md`, `clinical-work.md`, `research.md`, `index.html` |
 | Colours and fonts | `assets/css/style.css` (top of the file) |
 
