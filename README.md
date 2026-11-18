@@ -66,8 +66,6 @@ Do this for every Wix image before closing the Wix account, or those images will
 
 Go to **Settings → Collaborators → Add people**. They can then edit everything above.
 
-## Moving to ledc.info
+## Domain
 
-1. In `_config.yml`, set `url: "https://ledc.info"`.
-2. Go to **Settings → Pages → Custom domain**, enter `ledc.info`, and save.
-3. At the domain registrar (currently connected to Wix), point the domain to GitHub Pages. GitHub lists the DNS records under **Settings → Pages**.
+The site lives at soasledc.org, registered at Porkbun. The DNS there has four A records (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and a CNAME for www pointing to law-environment-and-development-centre.github.io. The `CNAME` file in this repository and `url` in `_config.yml` must both say soasledc.org.
