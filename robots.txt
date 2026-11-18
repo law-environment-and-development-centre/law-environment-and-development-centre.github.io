@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: /robots.txt
+---
+{% if site.hide_from_search %}User-agent: *
+Disallow: /
+{% else %}User-agent: *
+Allow: /
+{% endif %}

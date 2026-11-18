@@ -15,6 +15,9 @@ url: "https://law-environment-and-development-centre.github.io"
 baseurl: ""
 timezone: Europe/London
 
+# Soft launch: keeps search engines from listing the site. Set to false at launch.
+hide_from_search: true
+
 # Contact details (used in the footer)
 contact:
   institution: SOAS University of London
@@ -52,6 +55,5 @@ kramdown:
   parse_block_html: false
 
 exclude:
-  - .github
   - README.md
   - .gitignore
