@@ -17,7 +17,12 @@
         {%- endfor %}
       </ul>
     </nav>
-    {% include social.html %}
+    <div class="site-footer__links">
+      <strong>Links</strong>
+      <a href="https://www.soas.ac.uk/law/">SOAS College of Law</a>
+      <a href="https://lead-journal.org/">LEAD Journal</a>
+      {% include social.html %}
+    </div>
   </div>
   <p class="site-footer__copy">&copy; {{ site.time | date: "%Y" }} SOAS LEDC</p>
 </footer>

@@ -9,6 +9,18 @@ intro: |-
   The Clinic enables students to build their research, writing, and policy advocacy skills by contributing to ongoing campaigns, legal interventions, and collaborative research projects both globally and within the UK.
 ---
 
+<section class="wrap arms">
+<div class="prose" markdown="1">
+
+Since 2022, the SOAS Environmental Justice Clinic has partnered with NGOs, charities and legal advocates to provide impactful, critical and high-quality legal and policy research. The Clinic has two arms:
+
+</div>
+<div class="arms__grid">
+  <div class="arm"><h3>Environmental Policy Clinic</h3><p>Provides high-quality research that addresses the pressing environmental challenges of the day and informs advocacy.</p></div>
+  <div class="arm"><h3>Legal Advice Clinic</h3><p>Provides formal legal advice on environmental law matters, with supervision by barristers and solicitors.</p></div>
+</div>
+</section>
+
 <section class="wrap split">
 <div class="split__main panel panel--sky" markdown="1">
 

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<header class="page-title wrap">
+  <p class="eyebrow"><a href="{{ '/degree-programmes/' | relative_url }}">LLM/MA Environmental Law and Sustainable Development</a></p>
+  <h1 class="h1--module">{{ page.title }}</h1>
+  <p class="module-meta">
+    {% if page.code != "" %}<span>{{ page.code }}</span>{% endif %}
+    <span>{{ page.credits }} credits</span>
+    {% if page.semester %}<span>Semester {{ page.semester }}</span>{% endif %}
+  </p>
+</header>
+<section class="wrap prose module-body">
+  {{ content }}
+  <p><a class="btn btn--dark" href="{{ '/degree-programmes/' | relative_url }}#modules">All modules</a></p>
+</section>

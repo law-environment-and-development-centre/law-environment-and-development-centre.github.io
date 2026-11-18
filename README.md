@@ -16,6 +16,13 @@ You can make every change below in your web browser on github.com. You don't nee
 | Clinic projects | `_data/clinic_projects.yml` |
 | Clinic partner logos | `_data/partners.yml` |
 | Research themes (About page) | `_data/themes.yml` |
+| LLM/MA module pages | `_modules/` (one file per module) |
+| PhD projects | `_data/phd.yml` |
+| Members (academics, associates, PhD researchers, alumni) | `_data/members.yml`, profile pages in `members/` |
+| Seminar series archive (posters) | `_data/seminar_archive.yml` |
+| Events & collaborations | `_data/collaborations.yml` |
+| Advice, transnational education & impact | `research/advice-impact.md` |
+| LEAD Journal page | `lead-journal.md` |
 | Menu items | `_data/navigation.yml` |
 | Address, email, social links | `_config.yml` |
 | Page text | `about.md`, `degree-programmes.md`, `clinical-work.md`, `research.md`, `index.html` |
@@ -48,12 +55,12 @@ Open the file, click the pencil icon, make your change, then click **Commit chan
 
 ## Images
 
-Most images currently load from the old Wix media library (`static.wixstatic.com`). To host an image here instead:
+Most images currently load from where they were first uploaded: the Wix media library (`static.wixstatic.com`) and the old Google Sites site (`googleusercontent.com`). To host an image here instead:
 
 1. Upload it to `assets/img/` (**Add file → Upload files**).
 2. Replace the long Wix URL in the relevant file with `/assets/img/your-file.jpg`.
 
-Do this for every image before closing the Wix account, or those images will disappear.
+Do this for every image before closing the Wix account or deleting the Google Site, or those images will disappear.
 
 ## Giving someone else access
 

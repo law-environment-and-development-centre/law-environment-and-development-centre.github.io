@@ -1,0 +1,11 @@
+{%- assign p = include.p -%}
+<article class="phd-entry">
+  <h3>{{ p.title }}</h3>
+  <p class="phd-entry__meta">{{ p.name }}{% if p.status != "" %} · {{ p.status }}{% endif %}</p>
+  {% if p.abstract != "" %}
+  <details>
+    <summary>Read abstract</summary>
+    {{ p.abstract | markdownify }}
+  </details>
+  {% endif %}
+</article>
