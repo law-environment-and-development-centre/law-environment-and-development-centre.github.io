@@ -1,9 +1,12 @@
 ---
 layout: null
 permalink: /robots.txt
+sitemap: false
 ---
 {% if site.hide_from_search %}User-agent: *
 Disallow: /
 {% else %}User-agent: *
 Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
 {% endif %}

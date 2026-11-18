@@ -16,7 +16,7 @@ baseurl: ""
 timezone: Europe/London
 
 # Soft launch: keeps search engines from listing the site. Set to false at launch.
-hide_from_search: true
+hide_from_search: false
 
 # Contact details (used in the footer)
 contact:
@@ -57,3 +57,6 @@ kramdown:
 exclude:
   - README.md
   - .gitignore
+
+plugins:
+  - jekyll-sitemap   # builds /sitemap.xml for search engines (supported by GitHub Pages)
