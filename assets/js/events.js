@@ -12,7 +12,11 @@
     list.querySelectorAll('.event').forEach(function (ev) {
       var d = new Date(ev.dataset.date + 'T00:00:00');
       if (d < today) {
-        if (past) { past.insertBefore(ev, past.firstChild); } // newest past event first
+        if (past) {
+          var reg = ev.querySelector('.event__register');
+          if (reg) reg.remove(); // registration is closed once an event has happened
+          past.insertBefore(ev, past.firstChild); // newest past event first
+        }
         else { ev.remove(); }
       } else if (limit && shown >= limit) {
         ev.remove();
