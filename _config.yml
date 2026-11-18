@@ -45,5 +45,6 @@ kramdown:
   parse_block_html: false
 
 exclude:
+  - .github
   - README.md
   - .gitignore

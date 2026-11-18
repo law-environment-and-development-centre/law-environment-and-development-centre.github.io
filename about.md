@@ -14,6 +14,10 @@ The [Law, Environment and Development Centre (LEDC)](https://www.soas.ac.uk/ledc
 
 LEDC adopts multidisciplinary approaches in researching key issues in environmental law and development today, including water, land use, forests, climate change, intellectual property, rights of nature and indigenous peoples' rights. Its research focuses in particular on topics of relevance to the South and to North-South relations.
 
+LEDC is a member of the [IUCN Academy of Environmental Law](https://www.iucnael.org/en/), the largest network of environmental law education providers, and co-hosts the European Research Council-funded project [Addressing the Multi-scalar Dimensions of Sectoral Water Conflicts: Lessons from South Asia (WATCON)](https://www.soas.ac.uk/research/addressing-multi-scalar-dimensions-sectoral-water-conflicts-lessons-south-asia-watcon-2025).
+
+Prospective PhD candidates are welcome to contact [Professor Philippe Cullet](https://www.soas.ac.uk/about/philippe-cullet) or [Dr Birsha Ohdedar](https://www.soas.ac.uk/about/birsha-ohdedar) about supervision.
+
 </section>
 
 <section class="band band--light">

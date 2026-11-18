@@ -32,7 +32,7 @@ Through these diverse projects, the Clinic creates a platform for SOAS students,
 </aside>
 </section>
 
-<section class="band band--teal">
+<section class="band band--sea-blue">
 <div class="wrap prose" markdown="1">
 
 ## Placements at SOAS
@@ -46,9 +46,9 @@ Our clinical legal education programme is designed to foster inclusion. By promo
 </div>
 </section>
 
-<section class="band band--pink">
+<section class="band band--stone">
   <div class="wrap">
-    <h2 class="band__title band__title--magenta">Recent Projects</h2>
+    <h2 class="band__title band__title--crimson">Recent Projects</h2>
     <div class="projects">
       {%- for p in site.data.clinic_projects %}
       {% include project-card.html project=p %}

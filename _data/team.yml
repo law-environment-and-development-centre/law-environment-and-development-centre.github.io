@@ -8,7 +8,7 @@
   short: Prof. Philippe Cullet
   photo: https://static.wixstatic.com/media/fe513e_07a7e087e2664fbdbd54cce276d6671f~mv2.jpg/v1/fit/w_800,h_800,q_85,enc_auto/fe513e_07a7e087e2664fbdbd54cce276d6671f~mv2.jpg
   home: true
-  profile: ""
+  profile: https://www.soas.ac.uk/about/philippe-cullet
   bio: >-
     Philippe convenes the Law, Environment and Development Centre (LEDC), and
     co-convenes the [LLM in Environmental Law and Sustainable Development](https://www.soas.ac.uk/study/find-course/llm-environmental-law-and-sustainable-development),
@@ -23,21 +23,23 @@
   short: Dr Birsha Ohdedar
   photo: https://static.wixstatic.com/media/e23131_232a5591841e4619a8425c4d1f2af872~mv2.jpg/v1/fit/w_800,h_800,q_85,enc_auto/e23131_232a5591841e4619a8425c4d1f2af872~mv2.jpg
   home: true
-  profile: ""
+  profile: https://www.soas.ac.uk/about/birsha-ohdedar
   bio: >-
     Birsha is the deputy director of the Law, Environment and Development Centre
     (LEDC), and co-convenes the [LLM in Environmental Law and Sustainable Development](https://www.soas.ac.uk/study/find-course/llm-environmental-law-and-sustainable-development).
-    He is a senior lecturer in Environmental and Climate Change law.
+    He is a Senior Lecturer in Climate Change and Environmental Law, an Editor of
+    the [LEAD Journal](https://www.lead-journal.org/), and directs the SOAS
+    Environmental Policy Clinic.
 
 - name: Dr Nate Palmer
   first: Nate
   short: Dr Nate Palmer
   photo: https://static.wixstatic.com/media/e23131_f0bffd5976784d25a6105979b718d0af~mv2.jpg/v1/fit/w_800,h_800,q_85,enc_auto/e23131_f0bffd5976784d25a6105979b718d0af~mv2.jpg
   home: true
-  profile: https://drnatepalmer.com
+  profile: https://www.soas.ac.uk/about/nate-palmer
   bio: >-
     Nate is the Experimental Learning and Engagement lead at the LEDC, and is a
-    lecturer in environmental law at SOAS, convening modules including
+    Lecturer in International Environmental Law at SOAS, convening modules including
     International Environmental Law and Alternatives to Sustainable Development:
     Rights of Nature and Harmony with Nature. Nate is also an expert member at
     the UN Harmony with Nature Programme and serves as an assistant editor at the
@@ -48,5 +50,7 @@
   short: Prof. Martin W Lau
   photo: https://static.wixstatic.com/media/e23131_4813c8eba2a84c4a9c61e5ddc790c87a~mv2.jpg/v1/fit/w_800,h_800,q_85,enc_auto/e23131_4813c8eba2a84c4a9c61e5ddc790c87a~mv2.jpg
   home: false
-  profile: ""
-  bio: ""
+  profile: https://www.soas.ac.uk/about/martin-lau
+  bio: >-
+    Martin is Professor of South Asian Law at SOAS. His work covers the laws of
+    South Asia, comparative environmental law and Islamic law.
