@@ -27,7 +27,7 @@ Instruction for authors and other details are available on the [LEAD Journal Sub
 
 </div>
 <aside class="split__side lead-images">
-  <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfmeZK17r2XJV0KjvPEUNZXLZgTZKc9en3ui0vscFvy0YgnUKAEKD_GGJ_Ip5ObpaY0BHyAsMUYAqGmaD6q0u6YTh027vHIQmcDvq13J4COzKErJTCPP_BHFnMZPAhGhJ6XpH7S_L2eMEaYu5tmXi5jpZjVpHq-JoNiux0Bw0ktE7-X3PkM3NKls_qXTBqLGyOEHpZc2q0DlLHxXQXWd0LtmMX60yjQZnY4d1ld=w1280" alt="" loading="lazy">
-  <img src="https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeDYAmyjD-7avXXgt9hbLViVKcG9MUlXw--4-zslvPfs0LhVo8RB2vupZjXR1bFlRBnC429BNr3hPv3JZWPzoJ6mEUKFJs6mgnwbuE0bYZ9PfOi7zVewCCurtwk5lfohFIHaETj3N8k0eR9A-yInZXfBDqy8IN04DQMZYHWHCGteCKmxR8K15ObZ0Jeh0OcnBYk0Sd-EbfZb20evBfkGeof_UPCvwLfwctcf92Gnmo=w1280" alt="" loading="lazy">
+  <img src="{{ '/assets/img/lead/cover-1.jpg' | relative_url }}" alt="LEAD Journal cover, Vol 18/1 (2022)" loading="lazy">
+  <img src="{{ '/assets/img/lead/cover-2.jpg' | relative_url }}" alt="LEAD Journal cover, Vol 18/1 (2022)" loading="lazy">
 </aside>
 </section>

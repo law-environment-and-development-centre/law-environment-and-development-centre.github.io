@@ -1,99 +1,97 @@
 # Everyone on the Members page, by group. photo/link are optional.
 # Doctoral researchers: only people with a SOAS profile; link to it.
+# Photos live in assets/img/members/
 
 - group: Academic
   people:
   - name: Professor Philippe Cullet
     link: https://www.soas.ac.uk/about/philippe-cullet
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcSKLEuNZb-bl1EV0ZKtZg-QoaEzkKWPi0iY7V-msw4T_zajFUYS-nrZkTfJX4oxJypymOU38Npr_UUu3iShrujv3QIF4F3ihKFMY3FrXVZG5RIO0Iuka9VLcvsjcUdJuJ9s9nxwHTmTH1hh7MiVQIS7c4WwhJFyGIHUIUt11IF7qQYxSR3pYKvkdFnlv_w1unTAPW7EMlL4x02R6nFBiYn-fCDW0j1IskPooa0hcw=w1280
+    photo: /assets/img/members/philippe-cullet.jpg
     role: Chair, Centre of Law, Environment and Development
     interests: International and domestic law and policy concerning the environment, natural resources,
       water, sanitation, agriculture, sustainable development, climate change, health; social rights;
       intellectual property; India.
   - name: Dr Birsha Ohdedar
     link: https://www.soas.ac.uk/about/birsha-ohdedar
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcqZeKL7xljAbuYcJ4vdvmwfrujUWNK776saqo5wNh2NXl12fw6rXatBNBMouBnzgVmouho_BuSpnAwN5LrZEDV-hkoQ_AJdNBBzgOVF6I1kJ1OBdvTshEii5Rv7q0Yyge99RrJCRORFxm1DnMtGJp1iwmGPr5p8t64MGh853Z0TiPbGOtbvnVRFSNpSluvJm_tREKnNHhAGcoaBa3ydJ26diOdWsukTOy9HoskAEg=w1280
+    photo: /assets/img/members/birsha-ohdedar.jpg
     role: Deputy Director and Member
     interests: Climate Change, Water, International Law, Human Rights
   - name: Professor Martin W. Lau
     link: https://www.soas.ac.uk/about/martin-lau
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfTPPJn_QFjgeIdfnUdfhFy3TTKbNQ9g_LboXIk9Mr1qCtyc5eJHDAfWxmdTOKfraltVJWGgpPqwps4vJmWMkfeH1Czs86BaXcWyOcqTrmQjGVm5WIyAo40FKd-QCTBCuFz0WRQ04webF6jgdn3Nh0iAxsPMp1_dhoBQFSEA7QQZ5HM9piCfOm3AxWhGjGfyAcBF2buPdPtzUK6WOi3yHeh5oJSBYZb_dHhdSdDZBY=w1280
+    photo: /assets/img/members/martin-w-lau.jpg
     role: Member
     interests: Laws of South Asia; comparative environmental law, Islamic law.
 - group: Associates
   people:
   - name: Dr Lovleen Bhullar
     link: https://www.landecon.cam.ac.uk/person/dr-lovleen-bhullar
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfMVUviDmwhS-vrmvRAlfvtEX-8akkRSPN0fs_aSz7Uyv7UI5QV130bsQt14BDGizEGSPbW3FCvzuPUFrDwvTOYpbN5pD6EHWMCIIl_cJfH9F5uQkD7844kME886IYp09Em1o8kIGEUcIwjmvSnWMCbNRZ1NXr1HnlpDXlaBPXhsmdGotXF16Wga97XQTw=w1280
+    photo: /assets/img/members/lovleen-bhullar.jpg
     interests: International environmental law, Global environmental constitutionalism, Environmental,
       Water and Sanitation law and policy in India.
   - name: Prof. Thoko Kaime
     link: https://www.africanlegalstudies.uni-bayreuth.de/en/team/thoko/index.php
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcmpZvas6NE_mmqtHaQNAkDGP17o7TaIX9LsQPNL6PtYq8t3qJVMNHkbHoOILN0pTt0fynLFhVhF_EGG9XFbCYgSgl5BIZqqZD3pUoTV18FZ-d1CrTgZ94CpbXUCJQ9cifPrVNezNA3GgcKqwXqK4NRJUa9_w-kuMJjGKlw1brYkwTVLyxL9aQFjhdOG0yjXqsnwT6vOjpOde_pdf2JwyUJaTdFV3ziXo4YjpY7v-k=w1280
+    photo: /assets/img/members/thoko-kaime.jpg
     interests: Children’s rights, international human rights, climate change, ecosystems services analysis,
       sustainability analysis, risk analysis and mitigation, African governance issues.
   - name: Dr Sujith Koonan
     link: https://www.jnu.ac.in/content/sujith
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdVk_qsOkQqAFZUs1vep_Dmp3D_ztgKOZp_KkhlUKfav-pKOdt1dg_Itw5z3Az74Shu8Q57D8WUYxleH2TN7ERtsokV80VflXR9eIuyh3EYqqkPCb8QLP9gdjZEnJOWl8ek09HZMz9qleMw4WLh2C27pTZTlULbIxsczzKz8qlEVm6peaalRpR0M_ptog9stieHZZOW38DkDzXBmMBuVn9QM9EzzdJsm0x8TGuP=w1280
+    photo: /assets/img/members/sujith-koonan.jpg
     interests: Environmental law, law and sanitation, water law, human rights, international law, natural
       resources.
   - name: Dr Chung-Hsien Lee
     link: https://webpageprodvm.ntu.edu.tw/paEN/News_Photo_Content.aspx?n=16606&s=223001
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQezTlBc_DP7r8EyXDmbj5uvBl9yfUmRD00ysmoJqrkRQr5hH0X2zO2-Vmx1nVVx3xK1AdhBVIlpRJiDZ5JCcMbjFKIpUqyntucWV2u0aIo5JzhVVFcKWNJEKlqpIDFmRg2WyQY0ihL7Q79NkrdwLqeryVSWl3kXmOGX0C91O9AtX7fKYaW3kKnTC7zL6vRt2BIZG0B4pcWOJwJ2g-SukabPD3_Q4gkau-EDmxuI=w1280
+    photo: /assets/img/members/chung-hsien-lee.jpg
     interests: Administrative Law, Constitutional Law, Comparative law
   - name: Dr Feja Lesniewska
     link: https://www.surrey.ac.uk/people/feja-lesniewska
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfkXcbO4OgGfv_IOThpwZY8lrwSocMnVKBD_aKupWB2zUODSSwzPRZgbtVZxMfceKQ7hFU_dNOi0wOVtcWGjyp_uE5g7aUPV98I-633dzzKW0W_sI9nQNNa_WWdTlF3NSYjJIBKuihRxX5oW-uWeNMRGuRiLneVR6hISpjn9_QD-RMCcA7BfxPexAygFS8=w1280
+    photo: /assets/img/members/feja-lesniewska.jpg
     role: Co-Founder and Member
   - name: Dr Zainab Lokhandwala
     link: https://www.essex.ac.uk/people/LOKHA84104/Zainab-Lokhandwala
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdiTiDnWTU275Up7z2eDNVsh1V-M5Zz8Q-6nOVZVxYEA0lVUzvZA63OuZbWYLTn40G-f7UHLtahA-r_FjhjYliNnb5UnsZbJbggBBxo-1UwnRWxfbEesDrI6Zh57NtT7zzbpwcUYQK2f1tE8yBQfCus9m2uR2mUASIGIqKCyrfjLm9yq0uLt6tuJauC-wPt7yn24dVkogaQ1_x7k5dWQK3b1gbubkPka9jCqmjs=w1280
+    photo: /assets/img/members/zainab-lokhandwala.jpg
   - name: Prof. Roopa Madhav
     link: https://nludelhi.ac.in/faculty/dr-roopa-madhav/
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfM4OahuatXr5UHg6OcC-BLLgAlZnNgrbnTt79KdasME4w6amCeiSQtmBAtefIxzSxlbzNfqwLRyYJV9vO2E2Qz_nnPKEjYQYRQHgCZxCJtDCxURlVE16U-JTtHTa0hsoO3xMSJeMtf_R9rtL0nY6UL_AYKps7NwTxIYVmwiSCbqHztjfAMtXBUsoqkaalMxybq7hvhcEtC4wbPaUs797S0TEkiqxftdt-j-n-INjI=w1280
+    photo: /assets/img/members/roopa-madhav.jpg
   - name: Dr Hu Yuan Qiong
     link: https://www.soas.ac.uk/about/hu-yuan-qiong
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcQ_SfrxNXrq8UInXOtgwb08xMg4Ro65eMpQb4J32zRZQZf59hlZUNLV-28UnKCxqpkplZCqYXrvRemg9Q_k1rb1EvlfSIR_5V0DDFFhFesNsrqR1wFzr2L9iNAXBTqNRRWof8QPve4BqipYAG2Jq9bTNXIdTwaftn2aosQQCl5GVqFyEU_Ap9NqOazsyke2U-80QhIPr67EPt1QfO66JAiwvXearfyabj9WOABElQ=w1280
+    photo: /assets/img/members/hu-yuan-qiong.jpg
   - name: Prof. David Takacs
     link: https://www.uchastings.edu/people/david-takacs/
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeNIqRwi3ijzkdy-_KwddT0t4bSwu_27LIcMXENQHRaauvC7jh-oXUyYkzL92ZkSQsyc96ewNbHBXiLPi6M-fzgkzXNp8KjXNbjP0j_BJMPA_FXN5V78pilcjlt3ZfE_S6mLl16TuxHGRSjEUt4ZkDyWEZd6TLavksW6JNDIrlAvexX8luuEKxBE7nSU9ryia2S9VM3_BmPJ8GYliQ5tcUWn9quGCAL1nMYmRzagxI=w1280
+    photo: /assets/img/members/david-takacs.jpg
   - name: Dr Nate Palmer
     link: https://www.soas.ac.uk/about/nate-palmer
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeo8fYRxnfJnf89w0djUI7QChPdpHXXJMssuKYpRpVSzOrvOLvlelXXzZmUpJDKQJ7Gve4xT6noKu8p-tPY2L4rFXLsIQNLWKG7jJmBdm95N8h4FVat4DtXYyPf-feIfWgSLPmNB8xa6SrGcJGsmxrOnHoauHGlsqFfmrpjZAhpi8mGtQAbVPZhd7FUKio4abDp_lv7PVnyQcgS_1RvP9gPST3t1B95qpOcT_hd=w1280
+    photo: /assets/img/members/nate-palmer.jpg
   - name: Dr Rahul Yaduka
     link: https://www.watcon.org/team
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeUMjB4oCDXm5Qanx35Kkcy_NLyWN6F54vUz9Va2RlhQEhN-axDeQp1tdnf-owizX0MWBEXkIHZYK2uXrUn7Is04qNcYBpKAcREo2IUpkRYeWdjQ036hlhM-Ytfw1RkzbAladHM7BRcHgxxAGKVL50mT0IRCJTO2-q9Z1BWqu7RKK3fMnfcrg4JRBAgfWohGCq2TpCuH0G9XwSnLWTrG9JyeD4r0jFZavQPwSVBaqo=w1280
+    photo: /assets/img/members/rahul-yaduka.jpg
 - group: Doctoral researchers
   people:
-  - name: Mr Naser Alsayed
-    link: https://www.soas.ac.uk/about/naser-alsayed
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQf-epQKA_9IkRrvjz__WzDFE00ax-S9IyHcOWiiMebPYU9KTXoXs_n9uV2BD5HiAwwyPmCsg3hfHwwcg1XNHyz4yDZMBmo3cdYd_D_I8eyaCtHaYhWpYeTYYYh4xeV5A5fNMQ73wWnKRCiCYVDezZpp2UhDvGvh3CFX_WyBcmRTo5KNcTJ4Ny-sTUiKF-puMVaeBgwrmbqfJlHsI_ECCg57P3EIkm6XvRLnWSrbXf4=w1280
   - name: Mr Harendra Beniwal
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeuyMcHneDyxSNusBgW9LJi5RIwY2gmrmf0JG4mcIVRI5_o74wln3XUtvg-bPZLPCdQUsSpUH7FopRfZxM_xVE-0DcmlET4OuqiLbrg59w0Ffuop8jVV1BEAJe9RnYIrnQYEpGALdm8QbG_0GmFLudQGX0DPLypF2lBFef-GrMPyI94roaEFd4jj9mho47u-aX3SuBGi7gtsY4Mlpm9XQ2KkpxeIjODU4uoTCrO0zY=w1280
+    photo: /assets/img/members/harendra-beniwal.jpg
     link: https://www.soas.ac.uk/about/harendra-beniwal
   - name: Ms Laya Meriyanda
     link: https://www.soas.ac.uk/about/laya-meriyanda
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcNcJ1wFa1Qs4-6-sOsu89HthqhMwLJfRZWCfhsih-XHBBaYxQHBojfUYutPnpHdlkyikhsja52fx3OC7xhqFasq1ZxiEedYVaceTqtetHF8d3MWir8M-ZfBvH4A4k3r50-aC0aR1nWrnvrxebnmDlazoOfMSDUicxrDBaE-xYUd3iWHsjNvm61Se_YSNyv66yLBzb9L3HV9Kni6mc08PlPek-vGmmPvJ8DLD2tRQA=w1280
+    photo: /assets/img/members/laya-meriyanda.jpg
   - name: Ms Bonosree Rani
     link: https://www.soas.ac.uk/about/bonosree-rani
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQequtGrYTpXd0n6lwsq-uOGQ39fWQStqfRkON5pFaoVJpBBk8hYDe_NjXJbcgUhQI3TEXXJ3cWLBIJbpz7cIFfDMENDY5ge3I5ebEAxZ5Cz6XQ1RsFrhWmzC162o2MWdgE3icgf-PrTooZDnulCKIvgx7aGUf-Jvow1fPq4AxX46uRcvUeNUyW4FJetI_A2C6iEKAw-fq9yS4iqDYJKYk9ApIgpDIm65gUPcfY9d9s=w1280
+    photo: /assets/img/members/bonosree-rani.jpg
   - name: Ms Labiba Rukhsana
     link: https://www.soas.ac.uk/about/labiba-rukhsana
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfYRX3ZES2OpaEilfeZsRtYjsupgo_ClfzOCyE1N2AJkhGRhcc6MJ4Hl_IcoElGuswH9FRe0qLDXwjsD1-Eltp8RhFwT3fYQUEtkXwNVU7VQB5r1CRtwjmOnDQ-ynqwE5SmBTcJyADrY5KHlM7m5seUZ5BFxeai76qAM6hpSAapAWH-8od7TaEEnNmbkgucGmTtuYmZgSIhlMHLRUo1AI--2fo1MdDWH5o4whkVqQU=w1280
+    photo: /assets/img/members/labiba-rukhsana.jpg
   - name: Mr Mohammad Golam Sarwar
     link: https://www.soas.ac.uk/about/mohammad-golam-sarwar
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfQys28C6jtzEE6JrGXUkf-vW3vsd2Pr3f-Let5ypnc_DjL9pABqJVCgZlu431pCY7IAsStqxgrEIb5TuunVWqk4LXcIN2q-F9IRrwlq2hRgAjt2g6opXxlM7FLjCIhBgvgunr7IrhlQXB5ZcFXSAVDlnLt0jWjmng92MyMoQr70XWHN_v4wNZP8XmRVdIZMAnYr6tQolbCziSNamIgy0Nwp4_WcDYaFi7KJ6JV_iA=w1280
+    photo: /assets/img/members/mohammad-golam-sarwar.jpg
   - name: Ms Marta Simonetti
     link: https://www.soas.ac.uk/about/marta-simonetti
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdbA_ylbWbOLWlmAHCHnwkXLc6SaUxzaZi1KOObv_pXDqh99NrlkBz2iR9t6wi__qjjqpJ42A__J-046nsjiBU_dmh3SrgSwFMtuWo_0RDCooP9Ss6nycLLtPlnJPlJ0-R5ZHpcvl2vAA9o-oH5vjUokxujTn3rkNQDb2K0UVtvfWDQive7Y52WE9rgXXnYaIsD0jnra7lyTQTu8cpqXgChCo96DhpCoykobmrOt0o=w1280
+    photo: /assets/img/members/marta-simonetti.jpg
   - name: Mr KMS Tareq
     link: https://www.soas.ac.uk/about/kms-tareq-0
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeV5kiZFdiPqiQs6SQlqF77_jZtQJQHJALAnOUUyfZfDrFPj1KbgAqL5mZ98pOs5blmdDbKe6QUmk239MPrSM5BYRd3B84BdDsWHyrlqzXsDs3szhHlKaLAJVT1V2DGnLAXru9JMGdTf1z0603fHW9y9S_E71DkoP7YEWHjcgl4rbvFF-xk82ZyV2cM2MSKb0DV6dvU5nKq8lWID8dM79T2_db8CVe1y958Vjt2=w1280
+    photo: /assets/img/members/kms-tareq.jpg
   - name: Mr Liqi Wu
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQflj3e7quFB_eW4-05jK0zxorayY02n9PTH5nJr2x5_AoK0zPdjRDnhXZg04gOxc-ndrF0uBaiHyfX7p5FYjh3R5lXmhjjHinkNPAebrb3Tcyhmyp1QreZBQGY2vJldfHT_0UT_qDyOzk7cS0L1nqdIazpgOlIgeqYg7wws38kQJP2waeqxCqmhm4qdPdNnJw1hgdglkvimyuX_RhnVxXpJi--cjwzSfusixEUWeis=w1280
+    photo: /assets/img/members/liqi-wu.jpg
     link: https://www.soas.ac.uk/about/wu-liqi
   - name: Mr Debarshee Dasgupta
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQewvK7a0vIMvilQqqjmsjJDFfhRgtzT8jfHU-a0fl4KIsPv55smHwEvihhRxin_qnwRm1cO9K4GKkwqLVPQhY39bJM4r0b57mWkYpd0GxEluH609fprQTrjG-Wi9rbVjKuYkWYx58ANVYqlvv4ZHLZBaY8BShXHMoYZVbi1PkwRIvbWVdth4fjQVH5NSbOJcoMt3gPXfAKeY2ft6xVMWntksp2EogakL_N3cHIUNzM=w1280
+    photo: /assets/img/members/debarshee-dasgupta.jpg
     link: https://www.soas.ac.uk/about/debarshee-dasgupta
   - name: Ms Pamoda Jayasundara
     link: https://www.soas.ac.uk/about/pamoda-jayasundara
@@ -101,17 +99,20 @@
   people:
   - name: Dr Ruchi Shree
     link: https://www.soas.ac.uk/about/ruchi-shree
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdt1QvuQoTR3oXlQ-ObY0GbeGD9-qerIn6_ZrwW1XzvferJUeoUubSf1hwqq8pPmKz0GTriPkf--B7qpEnN1rhthloiNLZdNnw2AexHVUS5httmHu1USU2jUJCqa_FTRLGV4R5iAssZso6xWgMqC3fyWMx1WvmnwZbHeoxJinOUF5rsjeNFSUWLUd662fIB2GXRYDAguNbb1eccteC5JXjrOJTWjHkJmuU3uXbja3s=w1280
+    photo: /assets/img/members/ruchi-shree.jpg
   - name: Ms Sharowat Shamin
     link: https://www.soas.ac.uk/about/sharowat-shamin
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeKH0BuPTS7n0IFz6kr0l_2gAygn9AAKAcaG4U7bAhDDWwa8GvmW9JkedVBlc45N5AHAZEe_3toUp8wwwtqQ8TFK2-0jfIuzIJlrnfTWW1_R06SdG_EcG7GIqp3NI6wZEY5PxQ4M0EPiuEtVgz3YOryGMdWpsVCz8d8JgDYpkc0N5cgULm8Nx1HyZVpnwu6TlXtYnxQHeoc4K11aWOwczPzM51bwGXCYw2At9KM=w1280
+    photo: /assets/img/members/sharowat-shamin.jpg
   - name: Ms Sara Almohanadi
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQdmZjcSIT3opYCEmgbR7Ii4LrtDLEyBXARGfh80wa9W-CBFVeDtZ84S-xZxeNRJJO4-d5-eZ1swmQ6W-shvjPLCnojeW2bJQmhE1H4mI-ZSP0Qm8CbRfwScpxNhODNQ8dbY4xCsSBPiUVqXVx7oHzFySVJV1x-LJoLRQp3QYuUuhDErVxD5DueYaeGQfLux_IfiSG_sYW4p6JyPRLoo67we2eOXZ3Tf_qsu50Ppnpk=w1280
+    photo: /assets/img/members/sara-almohanadi.jpg
+  - name: Dr Naser Alsayed
+    link: https://soas-repository.worktribe.com/output/1205885/water-security-in-the-gulf-cooperation-council-gcc-states-towards-equity-and-justice
+    photo: /assets/img/members/naser-alsayed.jpg
 - group: Alumni voices
   people:
   - name: Illari Aragon
     role: Climate Justice Policy Lead, Christian Aid
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeXHbvY3TUCBvHxfnNI8yOhQPznJB4no6IkBXnn_MTAGKkQQzHOLc2GRvkfVhfBcgEHGdOyF8BK2wAAAxcId9vVwommYtmcgNBNOPQQ-EC__ZiIalrYIrpmy6d1Hc3h-U-mxLWw79kZtnGJEnOPU0acO0hdmDjFS34igvgVobZkwKgMzGrkezJCFGfb_hqmLmQn6suFxlhVvL_U-TnZ62prVpnhWShO2PigLwxW=w1280
+    photo: /assets/img/members/illari-aragon.jpg
     text: I graduated from SOAS LLM in environment, development and governance in 2012. The LLM course
       was multifaceted with a huge range of subjects combining law, environment and international development
       which I always found interesting and rewarding. After graduating, I worked at the Bar Human Rights
@@ -129,7 +130,7 @@
       to pursue a career in climate diplomacy and internal development.
   - name: Mr Melino Bain-Vete
     role: MSC & Policy Research Support, Parties to the Nauru Agreement (PNA)
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfu52IoT1-HMEUjsz0Wv2IN9d6C2aslIFDVhA84tz-FI70EfVU3xzjV0ICdT8EVfXMCJ6616wyZVxmdDSEyBaimNH98JhuZOGwbGsO6x1mUImhUJ2v57cU-83t_GLbE0SmXJ5BriP-ITUcP4ngeDvQmNvahtJrK4g2VKd4RtaeopWKhp3ccF7v5X50VV6_DQbgSW7a5NjrmrO-92mQ8uaq4bdcPRE7HBuz7B7NJKiQ=w1280
+    photo: /assets/img/members/melino-bain-vete.jpg
     text: I have worked as an Environment Officer for a local environmental consulting firm on a range
       of activities including Environmental Impact Assessments and Management Plans. More recently I have
       worked as a consultant for the Pacific Islands Forum Fisheries Agency, the Australia Institute (an
@@ -137,7 +138,7 @@
   - name: Dr Adam Byrne
     role: Visiting Postdoctoral Research Fellow and Teaching Assistant, Geography Department, University
       College London (UCL)
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQd6O8fDjNFfOfrV1B_Lqn6KpCZGnpxLqvsLKK_Qqh1rL9WoGdKEYA3o6_Bv5fSLh1c0mZm2ZFHYapZJJFbA3bvw2KMYAnhPcKDyILtMr3iizsgXSyfDCVcdNZzzLcKtGaVfcx7oK_x_xx_C1Z9HHPj7d0lHy4cPNfl236D-OjiBmvGHzp1DEU5-ZSIFVWO_2UZOOE8i1E3p54SNN1xTfQRUQDYK0rFS3rWfKUYgNdg=w1280
+    photo: /assets/img/members/adam-byrne.jpg
     text: I enjoyed my time at SOAS, the MA teaching had sufficient breadth and depth in terms of the
       topic areas that I left with a good grounding in environmental law, but also had the opportunity
       to develop my own interests in detail through course papers and the dissertation. The lectures and
@@ -151,7 +152,7 @@
       an important contributory factor to being offered a funded place for doctoral research there.
   - name: Dr Gary Cox
     role: Principal, Gary Cox Consulting
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQepgalEEP_lv1ilTz391H1my4-MPNAeam7SWII0GYl_MsnwxiD1evfOsn_JdoWHaA-726HlHHz_5iGi609wlXYlQN1yhat4gCSnoYI1CxYZic0If6rBBGAc-1SVAAW8piOHuzCrAFsHbFNXCJV2IkEw56g8ZAr9MAcB-qAyuSOWwHeUB5RYyew4rh2BuNOKIrCipnHcu6jDSSFulRL0wugyzGhz5cpCdSkd3plKy60=w1280
+    photo: /assets/img/members/gary-cox.jpg
     text: In my two major roles subsequently the legal training at SOAS has been invaluable. In my position
       in Australia in a professional consulting firm, I was appointed by the state minister for environment
       and planning to an advisory group set up to provide recommendations to reform the planning system.
@@ -164,7 +165,7 @@
       The international reach of the course enabled me to easily transfer these skills to other jurisdictions.
   - name: Mr Marc Jourdan
     role: Senior Manager, Position Green
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQcjabupgGkXodarnoHltrvsJYXPZgGhid0DDggn_3JeKZyWv0aRa7HKK3-NKkHOLhmXFSyONuPxA1DPamiupwzzyO2G6RcJEAgKyb31GUmurKiHoMRKXoF6okQSACXSRD7Z2msfkW1JmTJd3XwOULzF7nJ_8fYB_t7vpKcH1TRhjx3Y7deBwK7nzvF8oPTTjxUfsoOuxqHfz0n0eeDcdKa04lKMj14EMjqGsILa=w1280
+    photo: /assets/img/members/marc-jourdan.jpg
     text: 'Marc Jourdan is the UN Representative and Environmental Programs Coordinator for the Global
       Foundation for Democracy and Development (GFDD). Marc is responsible for managing the foundation’s
       programs at the United Nations, including attending the public sessions of inter-governmental meetings
@@ -184,7 +185,7 @@
       the School of Oriental and African Studies in London.'
   - name: Mr Sebastien Korwin
     role: Co-Founder, Environmental Legal and Policy Consultant, Takin Consulting
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfikJhqsgI9hITW24f63w0UCITKAm1U0JDNRqtox67lywpUSMJ_PJOK1c1J7vbvFaEr0BLAqMoZ76_2x4fwhyQnqMIYfKf4u7_gfTlOqRKSzImIt09to7UYDdB7xb5XpcXjOLxDfMrKoJW5INfXQxQcajdVYBgg3qhCMas3_sInEFIGj25bsyhkimzxonu-6jKCP4ns0sAOrcGTkfJVNfmIbX7pv5vwORoY5zK-4Vg=w1280
+    photo: /assets/img/members/sebastien-korwin.jpg
     text: After graduating from the SOAS LLM in environmental law I completed an internship at the IUCN
       Environmental Law Centre in Bonn, and worked for the UNFCCC secretariat as a conference assistant.
       I then returned to London to work for ClientEarth for a few months, as part of their climate and
@@ -195,7 +196,7 @@
       to the design and implementation of governance reform strategies for governments.
   - name: Ms Natalie Danielle McCauley
     role: Acting Assistant Professor of Lawyering,New York University School of Law
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQd3MWUrDM0ldN7CAlIJ32CQrWZNyak8fsjZf_iYiKG21VuLrKrWM9BNM9bdGjYRMSmNFiE93J-R2_l_zD9gB3LtTjXkGcMI-UsEh5wdgu4KVTut6F_9lzHie3c9kT4Da-4cE3a0GZ9Ec4ZlDs_M9pV05leOXwV8walsC7EJpqSLTUQYDTBaKt-NjOU8YYh6-LsCloNn7OH33lzexKMKG9IWsyn0IDDbI9W4i0wf=w1280
+    photo: /assets/img/members/natalie-danielle-mccauley.jpg
     text: After my introduction to the complexities of international environmental law at SOAS, I was
       inspired to not just learn about the law but be an active part in changing it. The impassioned and
       diverse perspectives from professors and classmates at SOAS have colored my continued focus on making
@@ -204,7 +205,7 @@
       courts in The Hague, where I expanded my water law knowledge with law of the sea.
   - name: Mr Florent Pelsy
     role: Senior Manager, Milieu Ltd
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQffVbG_qKxf5_b0SVNO-DDGEjB1zeTWM3Y9sxikfPTzQlGakTEZSEMWLlqiXN1ms3EmpiVKm2QcaCWTC2rXUw8KNaPgNcSBCM75Hy_a5CkQWgrwL-KXh-8XRtYLEAVx46JGkG-CiS1g9ag0M0KYkwDexSYhXV2CpcGkJzyVp2PrbqwgQb26dpBrCDc-WjNHbOTMRHEVYhGcEgl2B4B-hnooDD_mzbEBMLKWe3A8Rik=w1280
+    photo: /assets/img/members/florent-pelsy.jpg
     text: After SOAS and my LLM on environmental law, I came to Brussels. I was first an intern at ClientEarth
       an NGO of environmental public interest lawyers and then at the European Commission DG Energy in
       the unit in charge of renewable energy. After these internships I started working as an environmental
@@ -219,7 +220,7 @@
   - name: Mr Andrea Rizzo
     role: Programme Management Officer, Environmental Policy, Law Division, United Nations Environment
       Programme (UNEP)
-    photo: https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQfLN_Uh15h8Zn53RMdIKVW1xZHKXhmG_FNm1UaTtA4KfxdVKT_aZmguZc1WQzIa_wU2uUhSA8P_Cs_UYRCBFoiii-6xTbuWuuTyWLmVjFkJojElq4CaiT-L9n1VaL9z81C2a6Rt8fZ1Q3JZVMKa78a2JElfeAlatZrtsYwuDZYr6KBg3ARkRz8yccPB8VEaH-8fzLhPqUYOR8jwDkU9DN3hdVMrcM_4rRluiokS=w1280
+    photo: /assets/img/members/andrea-rizzo.jpg
     text: 'My LLM in Environmental Law at SOAS has given me all the right ingredients for successfully
       shaping my desired career trajectory: critical, out-of-the-box thinking combined with a wide view
       of world issues and a great understanding of the environment-development nexus. After graduating

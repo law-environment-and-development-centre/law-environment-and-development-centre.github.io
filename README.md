@@ -19,7 +19,7 @@ You can make every change below in your web browser on github.com. You don't nee
 | LLM/MA module pages | `_modules/` (one file per module) |
 | PhD projects (ongoing ones link to SOAS profiles) | `_data/phd.yml` |
 | Members (academics, associates, PhD researchers, alumni) | `_data/members.yml` |
-| Seminar series archive (posters) | `_data/seminar_archive.yml` |
+| Seminar series archive | `_data/seminar_archive.yml` |
 | Events & collaborations | `_data/collaborations.yml` |
 | Advice, transnational education & impact | `research/advice-impact.md` |
 | LEAD Journal page | `lead-journal.md` |
@@ -55,12 +55,12 @@ Open the file, click the pencil icon, make your change, then click **Commit chan
 
 ## Images
 
-Most images currently load from where they were first uploaded: the Wix media library (`static.wixstatic.com`) and the old Google Sites site (`googleusercontent.com`). To host an image here instead:
+Member photos and LEAD Journal covers are stored in `assets/img/`. The other photos still load from the Wix media library (`static.wixstatic.com`). To host an image here instead:
 
 1. Upload it to `assets/img/` (**Add file → Upload files**).
 2. Replace the long Wix URL in the relevant file with `/assets/img/your-file.jpg`.
 
-Do this for every image before closing the Wix account or deleting the Google Site, or those images will disappear.
+Do this for every Wix image before closing the Wix account, or those images will disappear.
 
 ## Giving someone else access
 

@@ -1,7 +1,73 @@
 # PhD projects on the PhD research page.
 # Ongoing projects: title as on the student's SOAS profile, link to that profile, no abstract.
-# Completed: status like "awarded 2026"; abstract optional.
+# Completed: status like "awarded 2026"; link and abstract optional.
 
+- title: 'Ecological Law and Integrated Governance of Natural Resources: The Case Study of Water and Land
+    in Rajasthan'
+  name: Mr Harendra Beniwal
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/harendra-beniwal
+- title: 'Rights of Nature and the Climate Crisis in Bangladesh: The Role of Alternatives to Development'
+  name: Mr Mohammad Golam Sarwar
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/mohammad-golam-sarwar
+- title: 'Environmental Rights within Indigenous Customary Law: Harmony and Conflict in Approaching Ecological
+    Balance in Indonesia''s Adat and Rwanda''s Ubuntu'
+  name: Ms Marta Simonetti
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/marta-simonetti
+- title: 'Climate Mobility Governance in Multilevel Law and Policy: From Recognition, Protection, and
+    Climate Justice Perspectives'
+  name: Mr KMS Tareq
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/kms-tareq-0
+- title: 'State Obligations on Human Mobility in the Context of Climate Change: A Capability Approach'
+  name: Mr Liqi Wu
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/wu-liqi
+- title: 'Water, Health and Environmental Justice in Bangladesh: Integrated Responses to Antimicrobial
+    Resistance'
+  name: Ms Labiba Rukhsana
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/labiba-rukhsana
+- title: 'Digitisation and Discrimination: Inequalities in Technology Creation and Access in India'
+  name: Ms Laya Meriyanda
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/laya-meriyanda
+- title: 'Value-assumptions about Human-Animal Interactions: Underpinning the Evolving Discourse of Global
+    Animal Law'
+  name: Ms Pamoda Jayasundara
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/pamoda-jayasundara
+- title: 'Scalarity of Water Security: Multi-level Implications of India''s Domestic Water Security Framing'
+  name: Mr Debarshee Dasgupta
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/debarshee-dasgupta
+- title: 'Impacts of Space Activities on Environmental Rights: Towards Environmental Justice in Outer
+    Space Governance'
+  name: Ms Bonosree Rani
+  status: ongoing project
+  abstract: ''
+  completed: false
+  link: https://www.soas.ac.uk/about/bonosree-rani
 - title: 'Right to Clean and Affordable Energy in Bangladesh: Analyzing the Human Rights and Development
     Interplay'
   name: Dr Sharowat Shamin
@@ -67,6 +133,12 @@
     draft laws which respond to climate change and address the challenges of transitioning to a low-carbon
     economy.
   completed: true
+- title: 'Water Security in the Gulf Cooperation Council (GCC) States: Towards Equity and Justice'
+  name: Dr Naser Alsayed
+  status: awarded 2026
+  abstract: ''
+  completed: true
+  link: https://soas-repository.worktribe.com/output/1205885/water-security-in-the-gulf-cooperation-council-gcc-states-towards-equity-and-justice
 - title: 'Indian Farmers and Rights Over Biogenetic Resources: Towards Greater Food Sovereignty'
   name: Dr Zainab Lokhandwala
   status: awarded 2023
@@ -420,76 +492,3 @@
     UNFCCC should make itself more flexible to construct a more harmonised and target–oriented global
     climate regime.'
   completed: true
-- title: 'The Human-Nature-Animal Nexus: Analysing the Impact of Ecocentric Theories in an Anthropocentric
-    World'
-  name: Mr Naser Alsayed
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/naser-alsayed
-- title: 'Ecological Law and Integrated Governance of Natural Resources: The Case Study of Water and Land
-    in Rajasthan'
-  name: Mr Harendra Beniwal
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/harendra-beniwal
-- title: 'Rights of Nature and the Climate Crisis in Bangladesh: The Role of Alternatives to Development'
-  name: Mr Mohammad Golam Sarwar
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/mohammad-golam-sarwar
-- title: 'Environmental Rights within Indigenous Customary Law: Harmony and Conflict in Approaching Ecological
-    Balance in Indonesia''s Adat and Rwanda''s Ubuntu'
-  name: Ms Marta Simonetti
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/marta-simonetti
-- title: 'Climate Mobility Governance in Multilevel Law and Policy: From Recognition, Protection, and
-    Climate Justice Perspectives'
-  name: Mr KMS Tareq
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/kms-tareq-0
-- title: 'State Obligations on Human Mobility in the Context of Climate Change: A Capability Approach'
-  name: Mr Liqi Wu
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/wu-liqi
-- title: 'Water, Health and Environmental Justice in Bangladesh: Integrated Responses to Antimicrobial
-    Resistance'
-  name: Ms Labiba Rukhsana
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/labiba-rukhsana
-- title: 'Digitisation and Discrimination: Inequalities in Technology Creation and Access in India'
-  name: Ms Laya Meriyanda
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/laya-meriyanda
-- title: 'Value-assumptions about Human-Animal Interactions: Underpinning the Evolving Discourse of Global
-    Animal Law'
-  name: Ms Pamoda Jayasundara
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/pamoda-jayasundara
-- title: 'Scalarity of Water Security: Multi-level Implications of India''s Domestic Water Security Framing'
-  name: Mr Debarshee Dasgupta
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/debarshee-dasgupta
-- title: 'Impacts of Space Activities on Environmental Rights: Towards Environmental Justice in Outer
-    Space Governance'
-  name: Ms Bonosree Rani
-  status: ongoing project
-  abstract: ''
-  completed: false
-  link: https://www.soas.ac.uk/about/bonosree-rani

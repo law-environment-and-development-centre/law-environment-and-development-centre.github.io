@@ -325,7 +325,7 @@ details[open] summary { margin-bottom: .6rem; }
 .poster img { width: 100%; border-radius: 6px; border: 1px solid #e3e3e3; }
 .poster figcaption { display: flex; flex-direction: column; gap: .15rem; margin-top: .6rem; font-size: .92rem; }
 .poster__date { color: var(--muted); }
-.collabs { display: grid; gap: 3rem; padding-bottom: 4rem; }
+.collabs { display: grid; gap: 1.5rem; padding-bottom: 4rem; }
 .collab__images { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1rem; }
 .collab__images img { width: 100%; border-radius: 6px; }
 .collab h2 { font-size: 1.5rem; max-width: 40ch; }
@@ -336,3 +336,10 @@ details[open] summary { margin-bottom: .6rem; }
 .site-footer__links { display: flex; flex-direction: column; gap: .4rem; }
 .site-footer__links strong { color: #fff; }
 .site-footer__links .social { margin-top: .6rem; }
+
+.seminar-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 3.5rem; }
+.seminar { background: var(--stone); border-radius: var(--radius); padding: 1.3rem 1.5rem; border-top: 5px solid var(--gold); }
+.seminar__date { color: var(--muted); margin-bottom: .3rem; font-size: .92rem; }
+.seminar h3 { font-size: 1.1rem; margin-bottom: .4rem; }
+.seminar__speaker { margin: 0; font-size: .95rem; }
+.collab { border-top: 1px solid #ddd; padding-top: 1.5rem; }
